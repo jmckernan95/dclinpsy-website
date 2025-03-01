@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import questions from './questions';
+import questionsData from './questions'; // Import the questions data
+
 // Constants for categories
 const CATEGORIES = {
   BOUNDARIES: 'Professional Boundaries',
@@ -9,12 +10,9 @@ const CATEGORIES = {
   CLINICAL: 'Clinical Decision-Making'
 };
 
-// Initial empty questions array - will be populated later
-const initialQuestions = './questions';
-
 const DClinPsySJTApp = () => {
   // State management
-  const [allQuestions, setAllQuestions] = useState(initialQuestions);
+  const [allQuestions, setAllQuestions] = useState([]);
   const [currentQuestions, setCurrentQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userRankings, setUserRankings] = useState([]);
@@ -23,10 +21,14 @@ const DClinPsySJTApp = () => {
   const [testCompleted, setTestCompleted] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Initialize the app with a new test
+  // Initialize the app with questions and generate a new test
   useEffect(() => {
-    // In a real app, we would fetch questions from an API or database
-    // For now, we'll use the empty array and wait for questions to be added
+    // Load questions from imported data
+    setAllQuestions(questionsData);
+  }, []);
+
+  // Generate new test when questions are loaded
+  useEffect(() => {
     if (allQuestions.length > 0) {
       generateNewTest();
       setIsLoading(false);
@@ -195,8 +197,7 @@ const DClinPsySJTApp = () => {
           DClinPsy Situational Judgment Test Practice
         </h1>
         <div className="text-center p-8">
-          <p className="mb-4">Initializing application...</p>
-          <p>Please add questions to begin.</p>
+          <p className="mb-4">Loading questions...</p>
         </div>
       </div>
     );
@@ -280,7 +281,7 @@ const DClinPsySJTApp = () => {
         </h1>
         <div className="text-center p-8">
           <p className="mb-4">No questions available.</p>
-          <p>Please add questions to begin.</p>
+          <p>Please try refreshing the page.</p>
         </div>
       </div>
     );
@@ -424,13 +425,10 @@ const DClinPsySJTApp = () => {
   );
 };
 
-// Function to add questions to the app
-const addQuestions = (questions, setAllQuestions) => {
-  setAllQuestions(prevQuestions => [...prevQuestions, ...questions]);
-};
-
 function App() {
   return <DClinPsySJTApp />;
 }
-
+<div className="text-blue-500 font-bold p-4 bg-yellow-100 m-4 rounded-lg">
+  If this text is blue, bold, with yellow background and rounded corners, Tailwind is working!
+</div>
 export default App;
