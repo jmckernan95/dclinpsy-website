@@ -1,1 +1,1 @@
-# dclinpsy-sjt-practice
+# DClinPsy SJT Practice App
