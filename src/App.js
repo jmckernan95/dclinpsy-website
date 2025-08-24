@@ -29,6 +29,9 @@ import ArticleView from './pages/Blog/ArticleView';
 // News Pages
 import NewsFeed from './pages/News/NewsFeed';
 
+// Events Page
+import Events from './pages/Events';
+
 // Component Imports
 import ProgressDashboard from './components/ProgressDashboard';
 import PrivateRoute from './components/PrivateRoute';
@@ -60,6 +63,9 @@ const App = () => {
             
             {/* News Routes */}
             <Route path="/news" element={<NewsFeed />} />
+            
+            {/* Events Routes */}
+            <Route path="/events" element={<Events />} />
             
             {/* Protected Routes */}
             <Route 

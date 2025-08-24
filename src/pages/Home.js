@@ -94,6 +94,20 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
               <div className="text-center">
+                <div className="text-4xl mb-4">📅</div>
+                <h3 className="text-xl font-semibold mb-2">Events</h3>
+                <p className="text-gray-600 mb-4">Find nearby events</p>
+                <button
+                  onClick={() => navigate('/events')}
+                  className="w-full px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
+                >
+                  Browse Events
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+              <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
                 <h3 className="text-xl font-semibold mb-2">Progress</h3>
                 <p className="text-gray-600 mb-4">View analytics</p>
@@ -302,6 +316,23 @@ const Home = () => {
               </p>
               <div className="px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition">
                 Get Involved
+              </div>
+            </div>
+          </div>
+
+          <div 
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition cursor-pointer"
+            onClick={() => navigate('/events')}
+          >
+            <div className="text-center">
+              <div className="text-5xl mb-4">📅</div>
+              <h3 className="text-xl font-semibold mb-2">Psychology Events</h3>
+              <p className="text-gray-600 mb-4">
+                Find conferences, workshops, training sessions, and networking events 
+                in your area. Connect with the psychology community.
+              </p>
+              <div className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">
+                Browse Events
               </div>
             </div>
           </div>
