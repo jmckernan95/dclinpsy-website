@@ -17,6 +17,17 @@ import Privacy from './pages/Privacy';
 import ResearchQuestionnaire from './pages/ResearchQuestionnaire';
 import ResearchPrompt from './pages/ResearchPrompt';
 
+// Statistics Pages
+import StatisticsTheory from './pages/Statistics/StatisticsTheory';
+import StatisticsTest from './pages/Statistics/StatisticsTest';
+
+// Blog Pages
+import BlogList from './pages/Blog/BlogList';
+import ArticleView from './pages/Blog/ArticleView';
+
+// News Pages
+import NewsFeed from './pages/News/NewsFeed';
+
 // Component Imports
 import ProgressDashboard from './components/ProgressDashboard';
 import PrivateRoute from './components/PrivateRoute';
@@ -35,6 +46,18 @@ const App = () => {
             
             {/* Practice Route - supports both authenticated and anonymous */}
             <Route path="/practice" element={<Practice />} />
+            
+            {/* Statistics Routes */}
+            <Route path="/statistics/theory" element={<StatisticsTheory />} />
+            <Route path="/statistics/theory/:topicSlug" element={<StatisticsTheory />} />
+            <Route path="/statistics/test" element={<StatisticsTest />} />
+            
+            {/* Blog Routes */}
+            <Route path="/blog" element={<BlogList />} />
+            <Route path="/blog/:slug" element={<ArticleView />} />
+            
+            {/* News Routes */}
+            <Route path="/news" element={<NewsFeed />} />
             
             {/* Protected Routes */}
             <Route 

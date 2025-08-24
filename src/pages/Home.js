@@ -35,12 +35,12 @@ const Home = () => {
           </div>
 
           {/* Quick Actions */}
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-6 mb-12">
             <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
               <div className="text-center">
                 <div className="text-4xl mb-4">🎯</div>
-                <h3 className="text-xl font-semibold mb-2">Practice Test</h3>
-                <p className="text-gray-600 mb-4">Start a new 10-question SJT practice session</p>
+                <h3 className="text-xl font-semibold mb-2">SJT Practice</h3>
+                <p className="text-gray-600 mb-4">Clinical scenarios</p>
                 <button
                   onClick={handleStartPractice}
                   className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
@@ -52,9 +52,51 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
               <div className="text-center">
+                <div className="text-4xl mb-4">📈</div>
+                <h3 className="text-xl font-semibold mb-2">Statistics</h3>
+                <p className="text-gray-600 mb-4">Learn concepts</p>
+                <button
+                  onClick={() => navigate('/statistics/theory')}
+                  className="w-full px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
+                >
+                  Study Statistics
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+              <div className="text-center">
+                <div className="text-4xl mb-4">📚</div>
+                <h3 className="text-xl font-semibold mb-2">Blog & Resources</h3>
+                <p className="text-gray-600 mb-4">Expert advice</p>
+                <button
+                  onClick={() => navigate('/blog')}
+                  className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition"
+                >
+                  Read Articles
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+              <div className="text-center">
+                <div className="text-4xl mb-4">📰</div>
+                <h3 className="text-xl font-semibold mb-2">Psychology News</h3>
+                <p className="text-gray-600 mb-4">Latest updates</p>
+                <button
+                  onClick={() => navigate('/news')}
+                  className="w-full px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition"
+                >
+                  View News
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+              <div className="text-center">
                 <div className="text-4xl mb-4">📊</div>
-                <h3 className="text-xl font-semibold mb-2">Progress Dashboard</h3>
-                <p className="text-gray-600 mb-4">View your performance analytics and trends</p>
+                <h3 className="text-xl font-semibold mb-2">Progress</h3>
+                <p className="text-gray-600 mb-4">View analytics</p>
                 <Link
                   to="/dashboard"
                   className="block w-full px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition text-center"
@@ -67,8 +109,8 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
               <div className="text-center">
                 <div className="text-4xl mb-4">⚙️</div>
-                <h3 className="text-xl font-semibold mb-2">Profile Settings</h3>
-                <p className="text-gray-600 mb-4">Manage your account and privacy settings</p>
+                <h3 className="text-xl font-semibold mb-2">Profile</h3>
+                <p className="text-gray-600 mb-4">Account settings</p>
                 <Link
                   to="/profile"
                   className="block w-full px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition text-center"
@@ -113,11 +155,11 @@ const Home = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
-            DClinPsy SJT Practice
+            DClinPsy Prep Hub
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8">
-            Master Situational Judgment Tests for UK Clinical Psychology Doctorate applications with 
-            intelligent practice tests based on BPS and HCPC professional guidelines.
+            Complete preparation platform for UK Clinical Psychology Doctorate applications featuring 
+            SJT practice, statistics learning, expert resources, and live psychology news.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -147,59 +189,89 @@ const Home = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div 
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition cursor-pointer"
+            onClick={handleStartPractice}
+          >
             <div className="text-center">
               <div className="text-5xl mb-4">🎯</div>
-              <h3 className="text-xl font-semibold mb-2">Intelligent Question Selection</h3>
-              <p className="text-gray-600">
-                Each test includes questions from multiple clinical domains with smart category mixing 
-                for comprehensive practice.
+              <h3 className="text-xl font-semibold mb-2">SJT Practice</h3>
+              <p className="text-gray-600 mb-4">
+                Clinical decision-making scenarios with intelligent question mixing 
+                across multiple domains for comprehensive preparation.
               </p>
+              <div className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                Try Now
+              </div>
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-6">
+          <div 
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition cursor-pointer"
+            onClick={() => navigate('/statistics/theory')}
+          >
             <div className="text-center">
-              <div className="text-5xl mb-4">🔄</div>
-              <h3 className="text-xl font-semibold mb-2">Randomized Answer Order</h3>
-              <p className="text-gray-600">
-                Response options appear in different orders to eliminate predictability and 
-                test authentic clinical judgment.
+              <div className="text-5xl mb-4">📈</div>
+              <h3 className="text-xl font-semibold mb-2">Statistics Learning</h3>
+              <p className="text-gray-600 mb-4">
+                Interactive statistics theory and practice tests covering essential 
+                concepts for psychological research and analysis.
               </p>
+              <div className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+                Learn Statistics
+              </div>
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-6">
+          <div 
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition cursor-pointer"
+            onClick={() => navigate('/blog')}
+          >
+            <div className="text-center">
+              <div className="text-5xl mb-4">📚</div>
+              <h3 className="text-xl font-semibold mb-2">Expert Resources</h3>
+              <p className="text-gray-600 mb-4">
+                Comprehensive articles and guides covering DClinPsy applications, 
+                training tips, and career development advice from experienced professionals.
+              </p>
+              <div className="px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition">
+                Read Articles
+              </div>
+            </div>
+          </div>
+
+          <div 
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition cursor-pointer"
+            onClick={() => navigate('/news')}
+          >
+            <div className="text-center">
+              <div className="text-5xl mb-4">📰</div>
+              <h3 className="text-xl font-semibold mb-2">Live News Feed</h3>
+              <p className="text-gray-600 mb-4">
+                Auto-updating psychology and mental health news from trusted sources 
+                including BPS, APA, NHS, and leading research organizations.
+              </p>
+              <div className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition">
+                View News
+              </div>
+            </div>
+          </div>
+
+          <div 
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition cursor-pointer"
+            onClick={() => navigate('/dashboard')}
+          >
             <div className="text-center">
               <div className="text-5xl mb-4">📊</div>
-              <h3 className="text-xl font-semibold mb-2">Detailed Analytics</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold mb-2">Progress Analytics</h3>
+              <p className="text-gray-600 mb-4">
                 Comprehensive performance tracking with category breakdowns, trends, and 
-                personalized study recommendations.
+                personalized study recommendations across all modules.
               </p>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="text-center">
-              <div className="text-5xl mb-4">✅</div>
-              <h3 className="text-xl font-semibold mb-2">Professional Standards</h3>
-              <p className="text-gray-600">
-                All scenarios and feedback aligned with current BPS and HCPC guidelines for 
-                clinical psychology practice.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="text-center">
-              <div className="text-5xl mb-4">🎓</div>
-              <h3 className="text-xl font-semibent mb-2">Evidence-Based</h3>
-              <p className="text-gray-600">
-                Proximity-based scoring and comprehensive explanations help develop 
-                clinical reasoning skills effectively.
-              </p>
+              <div className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition">
+                View Progress
+              </div>
             </div>
           </div>
 
@@ -209,7 +281,7 @@ const Home = () => {
               <h3 className="text-xl font-semibold mb-2">Privacy Focused</h3>
               <p className="text-gray-600">
                 Optional account creation with GDPR compliance. All data stays local 
-                to your device for maximum privacy.
+                to your device for maximum privacy and security.
               </p>
             </div>
           </div>

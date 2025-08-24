@@ -1,10 +1,17 @@
-# DClinPsy SJT Practice App v3
+# DClinPsy Prep Hub v4
 
-Interactive practice tool for Doctorate in Clinical Psychology Situational Judgment Tests, designed to help candidates prepare for DClinPsy applications by practicing clinical decision-making based on BPS and HCPC guidelines.
+Complete preparation platform for Doctorate in Clinical Psychology applications, featuring SJT practice, statistics learning, expert resources, and live psychology news. Designed to provide comprehensive support for DClinPsy candidates based on BPS and HCPC guidelines.
 
 ## Features
 
-### Core Features
+### New in v4: Comprehensive Preparation Platform
+- **📈 Statistics Learning**: Interactive theory and practice tests covering essential statistical concepts
+- **📚 Expert Resources**: Comprehensive articles and guides for DClinPsy applications and career development
+- **📰 Live News Feed**: Auto-updating psychology news from trusted sources (BPS, APA, NHS)
+- **🎯 Enhanced Navigation**: Fully clickable interface for both anonymous and authenticated users
+- **📱 Mobile Optimized**: Responsive design across all devices
+
+### Core SJT Features
 - **Click-to-Rank System**: Intuitive interface for ordering response options from most to least appropriate
 - **Randomized Answer Order**: Response options appear in random order to eliminate predictability and test true clinical judgment
 - **Automatic Scoring**: Proximity-based scoring system that rewards accurate clinical reasoning
