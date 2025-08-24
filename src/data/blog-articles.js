@@ -362,9 +362,9 @@ Schedule pleasant and meaningful activities:
 ### Environmental Resilience Factors
 
 #### Work Environment Optimization
-- **Organize your workspace** for efficiency and calm
+- **Organise your workspace** for efficiency and calm
 - **Set boundaries** with work hours and availability
-- **Use technology effectively** - apps for organization and mindfulness
+- **Use technology effectively** - apps for organisation and mindfulness
 - **Create rituals** for transitions between work and personal time
 
 #### Support System Development

@@ -108,6 +108,20 @@ const Home = () => {
 
             <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
               <div className="text-center">
+                <div className="text-4xl mb-4">🤝</div>
+                <h3 className="text-xl font-semibold mb-2">Volunteer</h3>
+                <p className="text-gray-600 mb-4">Join our team</p>
+                <button
+                  onClick={() => navigate('/volunteer')}
+                  className="w-full px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition"
+                >
+                  Get Involved
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+              <div className="text-center">
                 <div className="text-4xl mb-4">⚙️</div>
                 <h3 className="text-xl font-semibold mb-2">Profile</h3>
                 <p className="text-gray-600 mb-4">Account settings</p>
@@ -271,6 +285,23 @@ const Home = () => {
               </p>
               <div className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition">
                 View Progress
+              </div>
+            </div>
+          </div>
+
+          <div 
+            className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition cursor-pointer"
+            onClick={() => navigate('/volunteer')}
+          >
+            <div className="text-center">
+              <div className="text-5xl mb-4">🤝</div>
+              <h3 className="text-xl font-semibold mb-2">Volunteer Opportunities</h3>
+              <p className="text-gray-600 mb-4">
+                Join our team and gain valuable experience whilst supporting fellow 
+                DClinPsy applicants. Perfect for CV building and networking.
+              </p>
+              <div className="px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition">
+                Get Involved
               </div>
             </div>
           </div>

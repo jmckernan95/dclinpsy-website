@@ -14,6 +14,7 @@ import Register from './pages/Register';
 import Practice from './pages/Practice';
 import Profile from './pages/Profile';
 import Privacy from './pages/Privacy';
+import Volunteer from './pages/Volunteer';
 import ResearchQuestionnaire from './pages/ResearchQuestionnaire';
 import ResearchPrompt from './pages/ResearchPrompt';
 
@@ -43,6 +44,7 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/volunteer" element={<Volunteer />} />
             
             {/* Practice Route - supports both authenticated and anonymous */}
             <Route path="/practice" element={<Practice />} />
