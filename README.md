@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# DClinPsy SJT Practice App v3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Interactive practice tool for Doctorate in Clinical Psychology Situational Judgment Tests, designed to help candidates prepare for DClinPsy applications by practicing clinical decision-making based on BPS and HCPC guidelines.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Core Features
+- **Click-to-Rank System**: Intuitive interface for ordering response options from most to least appropriate
+- **Randomized Answer Order**: Response options appear in random order to eliminate predictability and test true clinical judgment
+- **Automatic Scoring**: Proximity-based scoring system that rewards accurate clinical reasoning
+- **Detailed Feedback**: Comprehensive explanations aligned with BPS/HCPC professional guidelines
 
-### `npm start`
+### New in v3: Category Mixing & Progress Tracking
+- **Category Mixing**: Each test includes questions from multiple clinical domains for balanced practice
+- **Category Performance Analysis**: Detailed breakdown showing strengths and areas for development across different clinical domains
+- **Progress Dashboard**: Comprehensive tracking of test history, performance trends, and personalized study recommendations
+- **Test History**: Automatic saving of all test attempts with detailed analytics
+- **Performance Highlights**: Identification of strongest and weakest clinical areas
+- **Study Recommendations**: AI-generated suggestions based on individual performance patterns
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Scoring System
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Each question is worth **20 points total** (5 answers × 4 points maximum each):
 
-### `npm test`
+- **Exact match**: 4 points
+- **±1 position**: 3 points  
+- **±2 positions**: 2 points
+- **±3 positions**: 1 point
+- **±4 positions**: 0 points
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Total possible score**: 200 points (10 questions × 20 points each)
 
-### `npm run build`
+## Question Categories
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app covers all major clinical domains relevant to DClinPsy applications:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Professional Boundaries**: Maintaining appropriate therapeutic relationships and professional limits
+- **Risk Management**: Assessing and managing clinical risks including self-harm, suicide, and safeguarding
+- **Ethical Dilemmas**: Navigating complex ethical decisions in clinical practice
+- **Diversity & Inclusion**: Cultural sensitivity, accessibility, and inclusive practice
+- **Clinical Decision-Making**: Evidence-based clinical choices and assessment practices
+- **Interprofessional Working**: Collaborating effectively within multidisciplinary teams
+- **Trainee Development**: Professional growth, supervision, and reflective practice
+- **Service Delivery**: System-level decisions, resource management, and service efficiency
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Version History
 
-### `npm run eject`
+### Version 3 (Current) - Category Mixing & Progress Tracking
+- **Category Mixing Algorithm**: Ensures each test includes questions from multiple domains
+- **Enhanced Results Page**: Category-specific performance breakdown with visual progress bars
+- **Progress Dashboard**: Historical performance tracking with trends and insights
+- **Test History**: Automatic saving of all attempts with detailed analytics
+- **Performance Analytics**: Streak tracking, performance trends, and personalized recommendations
+- **Study Recommendations**: Targeted suggestions based on category performance patterns
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Version 2 - Randomized Answer Order
+- **Randomized Answer Order**: Response options appear in different positions for each question
+- Eliminates predictability and tests genuine clinical judgment rather than pattern recognition
+- Maintains accurate scoring and feedback regardless of display order
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone or download this repository
+2. Navigate to the project directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+### Development Mode
+```bash
+npm start
+```
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Testing
+```bash
+npm test
+```
+Launches the test runner in interactive watch mode
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Build for Production
+```bash
+npm run build
+```
+Builds the app for production in the `build` folder
 
-### Code Splitting
+### Deploy to GitHub Pages
+```bash
+npm run deploy
+```
+Deploys the built app to GitHub Pages (requires gh-pages setup)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project Structure
 
-### Analyzing the Bundle Size
+```
+src/
+├── App.js              # Main application component
+├── App.css             # Application styles
+├── questions.js        # Question bank data
+├── index.js            # React app entry point
+├── index.css           # Global styles
+└── [test files]        # Testing utilities
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Key Technologies
 
-### Making a Progressive Web App
+- **React 18.2.0**: Modern React with hooks
+- **Tailwind CSS 3.3.5**: Utility-first CSS framework
+- **Create React App**: Build toolchain and development server
+- **GitHub Pages**: Deployment platform
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on adding questions and contributing to the codebase.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Question Structure
 
-### Deployment
+See [QUESTIONS_STRUCTURE.md](./QUESTIONS_STRUCTURE.md) for detailed information about the data format and structure.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Development Roadmap
 
-### `npm run build` fails to minify
+See [TODO.md](./TODO.md) for planned improvements and feature requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+**Note**: This practice tool is designed to supplement, not replace, formal DClinPsy preparation programs. Always refer to official BPS and HCPC guidelines for authoritative information on professional standards.
