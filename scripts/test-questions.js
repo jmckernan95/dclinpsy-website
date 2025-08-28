@@ -5,7 +5,7 @@
  * Validates data structure and integrity
  */
 
-import fs from 'fs-extra';
+const fs = require('fs-extra');
 
 class QuestionTester {
   constructor() {
@@ -238,7 +238,7 @@ class QuestionTester {
 }
 
 // Execute if run directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (require.main === module) {
   const tester = new QuestionTester();
   tester.runTests()
     .then(passed => {
@@ -250,4 +250,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     });
 }
 
-export default QuestionTester;
+module.exports = QuestionTester;

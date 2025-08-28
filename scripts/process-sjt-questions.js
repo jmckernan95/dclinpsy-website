@@ -8,11 +8,11 @@
  * Never commits sensitive data to repository
  */
 
-import 'dotenv/config';
-import { GoogleGenerativeAI } from '@google/generative-ai';
-import fs from 'fs-extra';
-import path from 'path';
-import pdfParse from 'pdf-parse';
+require('dotenv').config();
+const { GoogleGenerativeAI } = require('@google/generative-ai');
+const fs = require('fs-extra');
+const path = require('path');
+const pdfParse = require('pdf-parse');
 
 // Security check
 if (!process.env.GEMINI_API_KEY || process.env.GEMINI_API_KEY === 'YOUR_API_KEY_HERE') {
@@ -466,7 +466,7 @@ export const getValidationInfo = () => ({
 }
 
 // Execute if run directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (require.main === module) {
   const processor = new SJTProcessor();
   processor.process().catch(error => {
     console.error('Fatal error:', error);
@@ -474,4 +474,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   });
 }
 
-export default SJTProcessor;
+module.exports = SJTProcessor;

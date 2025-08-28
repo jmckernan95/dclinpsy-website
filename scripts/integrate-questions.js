@@ -6,8 +6,8 @@
  * Creates backups and updates all relevant components
  */
 
-import fs from 'fs-extra';
-import path from 'path';
+const fs = require('fs-extra');
+const path = require('path');
 
 class QuestionIntegrator {
   constructor() {
@@ -250,7 +250,7 @@ class QuestionIntegrator {
 }
 
 // Execute if run directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (require.main === module) {
   const integrator = new QuestionIntegrator();
   integrator.integrate().catch(error => {
     console.error('Fatal error:', error);
@@ -258,4 +258,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   });
 }
 
-export default QuestionIntegrator;
+module.exports = QuestionIntegrator;

@@ -6,7 +6,7 @@
  * Creates sample validation reports for testing the interface
  */
 
-import fs from 'fs-extra';
+const fs = require('fs-extra');
 
 class DemoValidator {
   constructor() {
@@ -235,7 +235,7 @@ export const getValidationInfo = () => ({
 }
 
 // Execute if run directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (require.main === module) {
   const demo = new DemoValidator();
   demo.runDemo().catch(error => {
     console.error('Fatal error:', error);
@@ -243,4 +243,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   });
 }
 
-export default DemoValidator;
+module.exports = DemoValidator;
