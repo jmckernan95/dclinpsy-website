@@ -1,11 +1,13 @@
 /**
- * DClinPsy SJT Practice App v4 - Main Application Component
- * Features user authentication, progress tracking, and GDPR compliance
+ * DClinPsy Prep Hub - Professional Website Application
+ * Transformed from app-like interface to professional website UX
+ * Features comprehensive navigation, improved layouts, and enhanced user experience
  */
 
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
+import Layout from './components/Layout';
 
 // Page Components
 import Home from './pages/Home';
@@ -32,6 +34,12 @@ import NewsFeed from './pages/News/NewsFeed';
 // Events Page
 import Events from './pages/Events';
 
+// New Pages
+import SJTTest from './pages/SJTTest';
+import FAQ from './pages/FAQ';
+import Contact from './pages/Contact';
+import Feedback from './pages/Feedback';
+
 // Component Imports
 import ProgressDashboard from './components/ProgressDashboard';
 import PrivateRoute from './components/PrivateRoute';
@@ -39,91 +47,233 @@ import PrivateRoute from './components/PrivateRoute';
 const App = () => {
   return (
     <AuthProvider>
-      <Router>
-        <div className="min-h-screen bg-gray-50">
-          <Routes>
-            {/* Public Routes */}
-            <Route path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/privacy" element={<Privacy />} />
-            <Route path="/volunteer" element={<Volunteer />} />
-            
-            {/* Practice Route - supports both authenticated and anonymous */}
-            <Route path="/practice" element={<Practice />} />
-            
-            {/* Statistics Routes */}
-            <Route path="/statistics/theory" element={<StatisticsTheory />} />
-            <Route path="/statistics/theory/:topicSlug" element={<StatisticsTheory />} />
-            <Route path="/statistics/test" element={<StatisticsTest />} />
-            
-            {/* Blog Routes */}
-            <Route path="/blog" element={<BlogList />} />
-            <Route path="/blog/:slug" element={<ArticleView />} />
-            
-            {/* News Routes */}
-            <Route path="/news" element={<NewsFeed />} />
-            
-            {/* Events Routes */}
-            <Route path="/events" element={<Events />} />
-            
-            {/* Protected Routes */}
-            <Route 
-              path="/profile" 
-              element={
+      <Router basename={process.env.NODE_ENV === 'production' ? '/dclinpsy-website' : ''}>
+        <Routes>
+          {/* Homepage - No breadcrumbs */}
+          <Route 
+            path="/" 
+            element={
+              <Layout showBreadcrumbs={false}>
+                <Home />
+              </Layout>
+            } 
+          />
+          
+          {/* Authentication Pages - No breadcrumbs for clean UX */}
+          <Route 
+            path="/login" 
+            element={
+              <Layout showBreadcrumbs={false}>
+                <Login />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/register" 
+            element={
+              <Layout showBreadcrumbs={false}>
+                <Register />
+              </Layout>
+            } 
+          />
+          
+          {/* Practice Routes */}
+          <Route 
+            path="/sjt" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <SJTTest />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/practice" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <Practice />
+              </Layout>
+            } 
+          />
+          
+          {/* Statistics Routes */}
+          <Route 
+            path="/statistics/theory" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <StatisticsTheory />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/statistics/theory/:topicSlug" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <StatisticsTheory />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/statistics/test" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <StatisticsTest />
+              </Layout>
+            } 
+          />
+          
+          {/* Blog Routes */}
+          <Route 
+            path="/blog" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <BlogList />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/blog/:slug" 
+            element={
+              <Layout 
+                showBreadcrumbs={true}
+                customBreadcrumbs={[
+                  { label: 'Home', href: '/' },
+                  { label: 'Expert Resources', href: '/blog' },
+                  { label: 'Article', href: null }
+                ]}
+              >
+                <ArticleView />
+              </Layout>
+            } 
+          />
+          
+          {/* News Routes */}
+          <Route 
+            path="/news" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <NewsFeed />
+              </Layout>
+            } 
+          />
+          
+          {/* Events Routes */}
+          <Route 
+            path="/events" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <Events />
+              </Layout>
+            } 
+          />
+          
+          {/* Information Pages */}
+          <Route 
+            path="/faq" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <FAQ />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/contact" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <Contact />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/feedback" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <Feedback />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/privacy" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <Privacy />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/volunteer" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <Volunteer />
+              </Layout>
+            } 
+          />
+          
+          {/* Protected Routes */}
+          <Route 
+            path="/profile" 
+            element={
+              <Layout showBreadcrumbs={true}>
                 <PrivateRoute>
                   <Profile />
                 </PrivateRoute>
-              } 
-            />
-            <Route 
-              path="/research-prompt" 
-              element={
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/research-prompt" 
+            element={
+              <Layout showBreadcrumbs={true}>
                 <PrivateRoute>
                   <ResearchPrompt />
                 </PrivateRoute>
-              } 
-            />
-            <Route 
-              path="/research-questionnaire" 
-              element={
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/research-questionnaire" 
+            element={
+              <Layout showBreadcrumbs={true}>
                 <PrivateRoute>
                   <ResearchQuestionnaire />
                 </PrivateRoute>
-              } 
-            />
-            <Route 
-              path="/dashboard" 
-              element={
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/dashboard" 
+            element={
+              <Layout showBreadcrumbs={true}>
                 <PrivateRoute>
                   <ProgressDashboard onClose={() => window.history.back()} />
                 </PrivateRoute>
-              } 
-            />
-            
-            {/* Catch-all Route */}
-            <Route 
-              path="*" 
-              element={
-                <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-                  <div className="text-center">
-                    <h1 className="text-6xl font-bold text-gray-400 mb-4">404</h1>
-                    <h2 className="text-2xl font-semibold text-gray-600 mb-4">Page Not Found</h2>
-                    <p className="text-gray-500 mb-6">
+              </Layout>
+            } 
+          />
+          
+          {/* 404 Page - No layout wrapper for custom styling */}
+          <Route 
+            path="*" 
+            element={
+              <Layout showBreadcrumbs={false}>
+                <div className="container mx-auto py-20 text-center">
+                  <div className="max-w-md mx-auto">
+                    <h1 className="h1 text-neutral-400 mb-4">404</h1>
+                    <h2 className="h2 text-neutral-600 mb-4">Page Not Found</h2>
+                    <p className="body-lg text-neutral-500 mb-8">
                       The page you're looking for doesn't exist.
                     </p>
                     <a 
                       href="/" 
-                      className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+                      className="btn btn-primary"
                     >
                       Return to Home
                     </a>
                   </div>
                 </div>
-              } 
-            />
-          </Routes>
-        </div>
+              </Layout>
+            } 
+          />
+        </Routes>
       </Router>
     </AuthProvider>
   );

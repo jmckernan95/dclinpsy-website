@@ -1,8 +1,8 @@
 {
-  "name": "dclinpsy-app",
+  "name": "dclinpsy-website",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://jmckernan95.github.io/dclinpsy-app",
+  "homepage": "https://jmckernan95.github.io/dclinpsy-website",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
