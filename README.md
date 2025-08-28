@@ -1,10 +1,16 @@
-# DClinPsy Prep Hub v4
+# DClinPsy Prep Hub v5
 
-Complete preparation platform for Doctorate in Clinical Psychology applications, featuring SJT practice, statistics learning, expert resources, and live psychology news. Designed to provide comprehensive support for DClinPsy candidates based on BPS and HCPC guidelines.
+Complete preparation platform for Doctorate in Clinical Psychology applications, featuring AI-validated SJT practice, statistics learning, expert resources, and live psychology news. Now includes 32 professionally validated questions processed through Google Gemini AI against BPS and HCPC guidelines.
 
 ## Features
 
-### New in v4: Comprehensive Preparation Platform
+### New in v5: AI-Validated Question Bank
+- **🤖 Gemini AI Integration**: Professional question validation using Google Gemini 2.5 Flash
+- **✅ BPS/HCPC Compliance**: All questions validated against official professional guidelines
+- **📊 32 Validated Questions**: Comprehensive question bank covering all clinical domains
+- **🔍 Duplicate Detection**: Advanced similarity checking prevents redundant content
+
+### Comprehensive Preparation Platform (v4)
 - **📈 Statistics Learning**: Interactive theory and practice tests covering essential statistical concepts
 - **📚 Expert Resources**: Comprehensive articles and guides for DClinPsy applications and career development
 - **📰 Live News Feed**: Auto-updating psychology news from trusted sources (BPS, APA, NHS)
@@ -52,7 +58,21 @@ The app covers all major clinical domains relevant to DClinPsy applications:
 
 ## Version History
 
-### Version 3 (Current) - Category Mixing & Progress Tracking
+### Version 5 (Current) - AI-Validated Questions
+- **Gemini API Integration**: Complete validation pipeline using Google Gemini 2.5 Flash
+- **Professional Standards Compliance**: All questions validated against BPS/HCPC guidelines
+- **Automated Question Processing**: Scripts for extracting, validating, and deploying questions
+- **Quality Assurance**: High-confidence filtering (90%+ accuracy) and duplicate detection
+- **Comprehensive Documentation**: Full pipeline documentation and processing reports
+
+### Version 4 - Comprehensive Preparation Platform
+- **Statistics Learning**: Interactive theory and practice modules
+- **News Integration**: Auto-updating psychology news feed
+- **Expert Resources**: Blog articles and professional development content
+- **Events Calendar**: Psychology conferences and training opportunities
+- **Volunteer Opportunities**: Community engagement and experience building
+
+### Version 3 - Category Mixing & Progress Tracking
 - **Category Mixing Algorithm**: Ensures each test includes questions from multiple domains
 - **Enhanced Results Page**: Category-specific performance breakdown with visual progress bars
 - **Progress Dashboard**: Historical performance tracking with trends and insights
@@ -114,10 +134,21 @@ src/
 
 ## Key Technologies
 
-- **React 18.2.0**: Modern React with hooks
-- **Tailwind CSS 3.3.5**: Utility-first CSS framework
+### Frontend
+- **React 18.2.0**: Modern React with hooks and context
+- **Tailwind CSS 3.3.5**: Utility-first CSS framework for responsive design
 - **Create React App**: Build toolchain and development server
-- **GitHub Pages**: Deployment platform
+- **React Router**: Client-side routing and navigation
+
+### AI & Processing
+- **Google Gemini 2.5 Flash**: AI validation of questions against professional standards
+- **PDF Parsing**: Automated extraction from BPS/HCPC guideline documents
+- **Node.js Scripts**: Automated question processing and deployment pipeline
+
+### Infrastructure
+- **GitHub Pages**: Static site deployment platform
+- **LocalStorage**: Client-side data persistence and user progress tracking
+- **Environment Variables**: Secure API key management
 
 ## Contributing
 

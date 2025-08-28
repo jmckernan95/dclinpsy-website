@@ -1,0 +1,72 @@
+[
+  {
+    "id": 11,
+    "scenario": "During a routine follow-up session, a client with depression who has been stable for several months casually mentions that they've been \"stockpiling medication just in case things get bad again.\" When you explore this further, they are vague about their intentions but admit having thoughts that \"everyone would be better off without me.\"",
+    "options": [
+      "Conduct a comprehensive suicide risk assessment, including specific plans, intent, protective factors, and previous attempts, then develop a safety plan based on the level of risk identified.",
+      "Refer the client back to their GP or psychiatrist, explaining that medication management is outside your scope of practice.",
+      "Schedule an additional session for later in the week to monitor their mood more closely.",
+      "Immediately call emergency services to request an urgent mental health assessment.",
+      "Advise the client to dispose of the stockpiled medication and ask them to promise not to harm themselves."
+    ],
+    "correctRanking": [1, 2, 3, 4, 5],
+    "category": "Risk Management",
+    "source": "rtf"
+  },
+  {
+    "id": 12,
+    "scenario": "You are working in a CAMHS service and seeing a 15-year-old for anxiety. During your session, they disclose that an 18-year-old they met online has been asking them for intimate photos. They tell you this in confidence and explicitly ask you not to tell their parents or anyone else.",
+    "options": [
+      "Explain your safeguarding responsibilities, discuss your concerns about the situation, and work with the young person to understand the best way to involve parents and appropriate agencies.",
+      "Tell them you'll keep it confidential but give them advice about online safety and suggest they block this person.",
+      "Report directly to social services without discussing it further with the client.",
+      "Immediately contact their parents after the session without informing the client first.",
+      "Respect their confidentiality since they're not technically a child under 16 and they haven't sent any photos yet."
+    ],
+    "correctRanking": [1, 2, 3, 4, 5],
+    "category": "Professional Boundaries",
+    "source": "rtf"
+  },
+  {
+    "id": 13,
+    "scenario": "You are conducting a home visit with an elderly client who has mild cognitive impairment. During your assessment, you notice several expired food items in the kitchen, unopened bills on the table, and that the client appears unwashed. They insist they are managing fine on their own and don't want any \"interference.\"",
+    "options": [
+      "Sensitively discuss your observations with the client, assess their daily functioning in more detail, and explore their concerns about receiving support while explaining your professional responsibilities.",
+      "Contact adult social services immediately after leaving to report a vulnerable adult at risk.",
+      "Call a family member (listed as an emergency contact) while still at the home to express your concerns.",
+      "Arrange for a cleaner and meals-on-wheels service without further discussion as this is clearly needed.",
+      "Respect their autonomy and leave as they requested, making a note in your file about the observations."
+    ],
+    "correctRanking": [1, 2, 3, 4, 5],
+    "category": "Professional Boundaries",
+    "source": "rtf"
+  },
+  {
+    "id": 14,
+    "scenario": "You are working with a couple in relationship therapy. During a joint session, one partner discloses they have been having an affair. The other partner becomes extremely distressed and threatens to harm both themselves and their partner before leaving the session abruptly.",
+    "options": [
+      "Follow up immediately with the distressed partner to assess risk and safety, while also ensuring the disclosing partner is safe, and consider involving emergency services if immediate risk is identified.",
+      "Contact emergency services immediately to report the threats made in session.",
+      "Call both partners separately to check they are safe and offer individual crisis appointments.",
+      "Wait until the next scheduled appointment to address what happened, giving them time to cool down.",
+      "End therapy with this couple as the situation has become too high-risk to continue."
+    ],
+    "correctRanking": [1, 2, 3, 4, 5],
+    "category": "Risk Management",
+    "source": "rtf"
+  },
+  {
+    "id": 15,
+    "scenario": "A client from a minority cultural background expresses frustration that previous therapists haven't understood their cultural context. They specifically ask if you have experience working with people from their background and whether you understand their cultural practices around mental health.",
+    "options": [
+      "Acknowledge your limitations honestly, express willingness to learn about their cultural context, and discuss how you can work together to ensure culturally responsive therapy.",
+      "Reassure them that good therapeutic skills are universal and cultural background shouldn't matter in effective therapy.",
+      "Refer them to a therapist from the same cultural background if one is available in your service.",
+      "Ask them to educate you about their culture so you can provide better therapy.",
+      "Explain that you treat all clients the same regardless of their background as this ensures fairness."
+    ],
+    "correctRanking": [1, 3, 2, 4, 5],
+    "category": "Diversity & Inclusion",
+    "source": "rtf"
+  }
+]

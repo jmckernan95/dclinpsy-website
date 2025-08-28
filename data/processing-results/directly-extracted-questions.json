@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 11,
+    "scenario": "During a routine follow-up session, a client with depression who has been stable for several months casually mentions that they've been \"stockpiling medication just in case things get bad again.\" When you explore this further, they are vague about their intentions but admit having thoughts that \"everyone would be better off without me.\"",
+    "options": [
+      "Conduct a comprehensive suicide risk assessment, including specific plans, intent, protective factors, and previous attempts, then develop a safety plan based on the level of risk identified.",
+      "Refer the client back to their GP or psychiatrist, explaining that medication management is outside your scope of practice.",
+      "Schedule an additional session for later in the week to monitor their mood more closely.",
+      "Immediately call emergency services to request an urgent mental health assessment.",
+      "Advise the client to dispose of the stockpiled medication and ask them to promise not to harm themselves."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.470Z"
+  },
+  {
+    "id": 12,
+    "scenario": "You are working in a CAMHS service and seeing a 15-year-old for anxiety. During your session, they disclose that an 18-year-old they met online has been asking them for intimate photos. They tell you this in confidence and explicitly ask you not to tell their parents or anyone else.",
+    "options": [
+      "Explain your safeguarding responsibilities, discuss your concerns about the situation, and work with the young person to understand the best way to involve parents and appropriate agencies.",
+      "Tell them you'll keep it confidential but give them advice about online safety and suggest they block this person.",
+      "Report directly to social services without discussing it further with the client.",
+      "Immediately contact their parents after the session without informing the client first.",
+      "Respect their confidentiality since they're not technically a child under 16 and they haven't sent any photos yet."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.473Z"
+  },
+  {
+    "id": 13,
+    "scenario": "You are conducting a home visit with an elderly client who has mild cognitive impairment. During your assessment, you notice several expired food items in the kitchen, unopened bills on the table, and that the client appears unwashed. They insist they are managing fine on their own and don't want any \"interference.\"",
+    "options": [
+      "Sensitively discuss your observations with the client, assess their daily functioning in more detail, and explore their concerns about receiving support while explaining your professional responsibilities.",
+      "Contact adult social services immediately after leaving to report a vulnerable adult at risk.",
+      "Call a family member (listed as an emergency contact) while still at the home to express your concerns.",
+      "Tell the client firmly that they need help and you will be arranging home care services.",
+      "Respect their wishes for independence and continue with the planned assessment without addressing these issues."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 14,
+    "scenario": "During a family therapy session, the father becomes increasingly agitated and begins making threatening comments toward his teenage son, saying, \"If you disrespect me like that one more time at home, you'll regret it.\" The son appears frightened and withdraws from the conversation.",
+    "options": [
+      "Calmly address the father's communication style, set clear boundaries about threatening language in sessions, assess for actual risk of harm at home, and determine appropriate next steps based on this assessment.",
+      "Ask the father to step outside the room for a brief cooling-off period while you check in with the son privately.",
+      "Suggest the father and son have separate individual therapy sessions instead of family therapy.",
+      "End the session immediately and refer the case to child protection services.",
+      "Redirect the conversation to a less emotionally charged topic and continue with the planned session."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 15,
+    "scenario": "You are working with a 36-year-old client with a history of alcohol dependence who has been sober for three months. They arrive for their session smelling of alcohol and appearing intoxicated. They mention they plan to drive home after the session.",
+    "options": [
+      "Express concern about their current state, explain you cannot allow them to drive while intoxicated, and work with them to identify alternative transport options or someone who could collect them.",
+      "Call the police if they attempt to drive after you've advised against it.",
+      "End the session immediately, stating you cannot work with them while they are intoxicated, and reschedule.",
+      "Proceed with the session as planned but focus on the relapse and what might have triggered it.",
+      "Offer to drive them home yourself to ensure they arrive safely."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 16,
+    "scenario": "A client you're seeing in an adult mental health service discloses that they've been experiencing command hallucinations telling them to harm their neighbor, whom they believe is poisoning their water supply. They say they've purchased a knife \"just in case\" but haven't decided whether to act on the voices.",
+    "options": [
+      "Assess immediate risk, explain your duty to ensure safety, contact the crisis team or psychiatrist for urgent assessment, and consider whether information needs to be shared with potential victims or police.",
+      "Ask the client to voluntarily admit themselves to an inpatient unit.",
+      "Focus on challenging the client's delusion about the neighbor during the remainder of your session.",
+      "Ask the client to promise they won't act on the voices and schedule another session soon to follow up.",
+      "Immediately call the police without informing the client."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 17,
+    "scenario": "You're conducting a discharge planning meeting with an inpatient client who has a history of self-harm. They appear to have made good progress during their admission but casually mention that they've been hiding some sharp objects in their room \"just as a backup plan.\"",
+    "options": [
+      "Pause the discharge planning to reassess risk, discuss the meaning of keeping these items, review coping strategies, and consult with the multidisciplinary team about readiness for discharge.",
+      "Inform the client that you'll need to report this to ward staff immediately so the items can be removed.",
+      "Ask the client to hand over the items voluntarily and promise not to self-harm after discharge.",
+      "Continue with discharge planning but schedule more frequent follow-up appointments after discharge.",
+      "Suggest delaying discharge for at least another week without further discussion."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 18,
+    "scenario": "You are working with a client who has been diagnosed with anorexia nervosa. During today's session, they disclose that their BMI has dropped below 15 (severely underweight), they've been experiencing dizziness and heart palpitations, but they refuse to consider hospital admission or more intensive treatment.",
+    "options": [
+      "Express serious concern about their physical health, explain the medical risks at their current BMI, assess capacity, consult with the eating disorder team, and consider whether treatment under the Mental Health Act may be necessary.",
+      "Attempt to convince them that hospital admission is necessary by explaining the potential fatal consequences of severe anorexia.",
+      "Tell them you cannot continue to work with them unless they agree to more intensive treatment.",
+      "Call their emergency contact to inform them of the situation without the client's consent.",
+      "Respect their autonomy and continue with outpatient therapy while monitoring their physical health."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 19,
+    "scenario": "You are providing therapy to a mother with depression who brings her 4-year-old child to the session because childcare fell through. During the session, she describes feeling so overwhelmed that she has \"roughly handled\" her child when frustrated, leaving bruises on one occasion. The child appears withdrawn and anxious in the session.",
+    "options": [
+      "Acknowledge the challenges she's facing, explain your safeguarding responsibilities, gather more information about the incident and any ongoing risk, and follow local safeguarding procedures while maintaining a supportive therapeutic stance.",
+      "End the session immediately and call child protection services.",
+      "Tell her that you understand parenting is difficult but that she must never physically harm her child again.",
+      "Focus on providing emotional support and parenting strategies without addressing the safeguarding concern directly.",
+      "Suggest she arrange childcare for future sessions so you can discuss her personal issues more freely."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 20,
+    "scenario": "You are running a therapy group for people with anxiety disorders. After the session, one member approaches you privately and discloses that another group member has been sending them inappropriate and increasingly threatening messages via social media, demanding they meet outside the group.",
+    "options": [
+      "Listen to their concerns, assess the nature and severity of the threats, advise on immediate safety steps (blocking contacts, etc.), and develop a plan that may include speaking with the other member, changing group composition, or involving other services as appropriate.",
+      "Suggest they block the other member on social media and ignore the messages.",
+      "Immediately remove the threatening member from the group without further investigation.",
+      "Address the issue with both members present to mediate the situation.",
+      "Ask them to handle it themselves as it's happening outside the group setting."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 21,
+    "scenario": "You are working with a 14-year-old who discloses that they are sexually active with their 15-year-old partner. They ask you for information about contraception but insist you don't tell their parents, who are strictly religious and believe in abstinence until marriage.",
+    "options": [
+      "Assess their capacity for consent, ensure there are no safeguarding concerns, provide age-appropriate information about contraception and sexual health, and discuss how they might eventually communicate with their parents with your support.",
+      "Refer them to a sexual health clinic without any further discussion or support.",
+      "Provide detailed information about contraception without any assessment of capacity or potential risk.",
+      "Refuse to discuss contraception without parental consent and encourage abstinence.",
+      "Immediately inform their parents about the sexual activity despite the adolescent's request."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 22,
+    "scenario": "You are working with a client who has terminal cancer and is experiencing significant psychological distress. They tell you they are considering traveling to Switzerland for assisted suicide and ask for your professional opinion on this decision.",
+    "options": [
+      "Listen empathetically to their concerns about end-of-life issues, explore their values and current suffering, remain neutral on the specific decision, and focus on supportive psychological interventions while connecting them with appropriate palliative care services.",
+      "Report their intentions to their medical team without their knowledge.",
+      "Immediately express that you cannot continue therapy if they are considering this option, as it may be seen as assisting suicide.",
+      "Share your personal views on assisted suicide to help guide their decision.",
+      "Provide information about Swiss clinics and the process involved."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 23,
+    "scenario": "You are working with a refugee client through an interpreter. The client discloses experiences of torture in their home country. After the session, the interpreter, who is from the same community, tells you they know the client's family and asks for details about the torture allegations, expressing doubt about their truthfulness.",
+    "options": [
+      "Firmly explain client confidentiality rules to the interpreter, document the incident, request a different interpreter for future sessions, and consider discussing with your supervisor whether the breach requires further action.",
+      "Report the interpreter to their agency for breaching confidentiality.",
+      "Discuss the interpreter's concerns with the client at the next session.",
+      "Ignore the request and continue using the same interpreter for convenience.",
+      "Share minimal details to satisfy the interpreter's concerns while maintaining most confidential aspects."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 24,
+    "scenario": "You are assessing a 78-year-old client with early signs of dementia. During the assessment, they express a strong wish to remain living independently at home, but you observe significant safety risks including forgotten pans on the stove and medication confusion. Their adult children are insisting they move to a care home immediately.",
+    "options": [
+      "Conduct a thorough capacity assessment, consider the least restrictive options that could address safety concerns while respecting autonomy, and facilitate a family meeting to discuss balanced risk management approaches.",
+      "Suggest a compromise of a six-month trial period of independent living with daily care visits.",
+      "Support the family's decision for immediate care home placement as they know the client best.",
+      "Advocate exclusively for the client's wishes regardless of the safety concerns.",
+      "Focus your report solely on the cognitive deficits to strengthen the case for care home placement."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 25,
+    "scenario": "You are working with a client who discloses they have been fraudulently claiming disability benefits for a condition they don't have. They explain they did this due to financial hardship after losing their job and ask for your advice on what to do now.",
+    "options": [
+      "Explore the ethical and practical implications of their situation without judgment, encourage them to address the fraudulent claim, and focus on developing legitimate ways to manage their financial difficulties.",
+      "Ignore this disclosure and continue focusing only on their presenting psychological issues.",
+      "End the therapeutic relationship, stating that you cannot work with someone engaged in illegal activity.",
+      "Tell them that you are obligated to report benefit fraud and will be contacting the authorities.",
+      "Provide practical advice on how to gradually reduce their fraudulent claims without detection."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 26,
+    "scenario": "You work in a memory assessment service and have assessed an older adult who shows significant cognitive impairment consistent with dementia. They live alone and drive regularly. During your feedback session, when you raise concerns about driving safety, they become angry and insist there is nothing wrong with their driving.",
+    "options": [
+      "Acknowledge their feelings while clearly explaining the clinical findings, discuss the DVLA guidelines and reporting responsibilities, suggest a formal driving assessment, and explore their fears about losing independence.",
+      "Immediately report them to the DVLA without further discussion.",
+      "Avoid mentioning driving again since it caused distress, and leave this issue for their GP to address.",
+      "Contact their family members to confiscate the car keys without the client's knowledge.",
+      "Suggest they only drive on quiet roads and during daylight hours as a compromise."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 27,
+    "scenario": "You are working with a couple in therapy. During an individual session that was arranged to assess domestic violence concerns, one partner discloses they have been having an affair for the past year and are considering leaving the relationship. They ask you not to reveal this in the couples sessions.",
+    "options": [
+      "Discuss the implications of keeping this secret within couples therapy, clarify your boundaries regarding secrets in couple work, and explore options including pausing couples therapy or supporting them to disclose within or outside of sessions.",
+      "Suggest they end couples therapy with you and instead continue with individual therapy.",
+      "Insist they must disclose the affair in the next couples session or you will do so.",
+      "Agree to keep their confidence while continuing couples therapy.",
+      "Disclose the affair in the next couples session without warning the partner, as full honesty is essential for meaningful couples work."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Boundaries",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 28,
+    "scenario": "You are assessing a client with anxiety who mentions they want therapy but do not want their condition recorded in their medical records due to concerns about future employment discrimination. They ask if you can treat them without formal documentation.",
+    "options": [
+      "Explain record-keeping requirements and confidentiality protections in healthcare, discuss their specific concerns about documentation, and explore options such as self-funding private therapy if NHS documentation remains a barrier.",
+      "Agree to minimize documentation to basic necessary information only.",
+      "Refuse to see them unless they accept standard documentation procedures.",
+      "Offer to keep separate \"official\" records and more detailed \"unofficial\" notes.",
+      "Suggest they use a false name in your service to protect their identity."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Practice",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 29,
+    "scenario": "You are working with a 16-year-old client who has anorexia nervosa. Their weight has dropped to a medically concerning level, but they refuse to be hospitalized or to allow you to inform their parents about the severity of their condition, stating they are old enough to make their own medical decisions.",
+    "options": [
+      "Assess their capacity to make this decision, clearly explain the medical risks of their current condition, consult with the multidisciplinary team, and consider whether the situation meets threshold for breaching confidentiality based on risk.",
+      "Suggest a compromise of more frequent outpatient appointments instead of hospitalization.",
+      "Tell them you cannot continue to work with them unless they agree to hospitalization.",
+      "Immediately inform their parents without the client's consent due to the medical risk.",
+      "Respect their confidentiality and autonomy completely, continuing outpatient therapy as requested."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Practice",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 30,
+    "scenario": "You have been court-ordered to provide an assessment for a child custody case. During your assessment, you find evidence supporting the father's position, but you also discover he made a significant donation to the mental health charity where you volunteer. You were unaware of this connection before conducting the assessment.",
+    "options": [
+      "Immediately disclose the potential conflict of interest to the court and all parties involved, and discuss with the court whether you should withdraw from the case or continue if all parties consent.",
+      "Withdraw from the case without explanation and recommend another psychologist.",
+      "Complete the assessment as planned without mentioning the donation, as your professional judgment remains unaffected.",
+      "Disclose the connection only to the mother's legal team to allow them to decide how to proceed.",
+      "Complete the assessment but ensure your recommendations are particularly critical of the father to compensate for potential bias."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 31,
+    "scenario": "You are working with a client who is a practicing Muslim. They explain that they will be fasting for Ramadan, which coincides with a planned intensive phase of their trauma therapy. They express concern about managing the emotional demands of therapy while fasting.",
+    "options": [
+      "Discuss how their religious practice and therapy might interact, collaborate on adjusting the therapy plan (timing, intensity, etc.) to accommodate fasting while still meeting therapeutic goals, and seek their input on what would work best.",
+      "Recommend postponing the intensive trauma work until after Ramadan without further discussion.",
+      "Suggest they request a religious exemption from fasting due to mental health treatment needs.",
+      "Continue with the original therapy plan, explaining that their treatment should take priority over religious practices temporarily.",
+      "Express concern that their religious practices might be contributing to their mental health difficulties."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Practice",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 32,
+    "scenario": "You are conducting a cognitive assessment with a client who recently moved to the UK and is not fluent in English. During testing, they appear frustrated and their scores are significantly below what would be expected given their educational and occupational history.",
+    "options": [
+      "Acknowledge the language barrier, consider using non-verbal or culturally fair assessment tools, arrange for an interpreter for future sessions, and clearly note the limitations of testing in your report.",
+      "Continue with the standard assessment battery but make a note of the language barrier in your report.",
+      "Refer the client to an English language course and reschedule the assessment for several months later.",
+      "Score the assessment as usual but add extra points to compensate for the language barrier.",
+      "Conclude that the client may have cognitive impairment and recommend further neurological investigation."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 33,
+    "scenario": "During a therapy session, your client who uses a wheelchair mentions that they had difficulty entering the building due to a broken lift and had to be carried up the stairs by a security guard, which they found humiliating.",
+    "options": [
+      "Apologize for their experience, validate their feelings, immediately report the lift issue to building management, offer an accessible alternative for future sessions, and follow up to ensure repairs are completed.",
+      "Offer to conduct future sessions via video call to avoid access issues.",
+      "Sympathize with their experience but explain that building maintenance is outside your control.",
+      "Suggest they call ahead next time to check if the lift is working before traveling to their appointment.",
+      "Change the subject back to their therapy goals without addressing the access issue."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 34,
+    "scenario": "You are working with a transgender teenager who has recently started using a new name and pronouns. Their parents, who are also involved in family sessions, refuse to use the teenager's chosen name and pronouns, insisting this is \"just a phase.\"",
+    "options": [
+      "Respect the teenager's identity by using their chosen name and pronouns, arrange separate sessions to educate parents about gender identity and the importance of affirmation, while being patient with their adjustment process and maintaining a therapeutic alliance with all family members.",
+      "Refer the teenager to a gender identity specialist and terminate your involvement.",
+      "Refuse to continue family therapy until the parents agree to use the teenager's chosen name and pronouns.",
+      "Use the teenager's birth name and original pronouns in family sessions to avoid conflict with the parents.",
+      "Side with the parents' perspective that it may be a phase and encourage the teenager to take more time before making identity changes."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 35,
+    "scenario": "You are conducting a therapy group for anxiety. One group member frequently makes comments that could be interpreted as culturally insensitive about another member's ethnic background, though they claim they are \"just being friendly\" and \"interested in other cultures.\"",
+    "options": [
+      "Address the comments in the moment by acknowledging different interpretations, establish clear group boundaries about respectful interaction, facilitate a constructive discussion about impact versus intent, and speak privately with both members if needed.",
+      "Speak privately to the person receiving the comments to check if they are offended before taking any action.",
+      "Remove the person making the comments from the group immediately.",
+      "Change the group topic whenever these comments arise to redirect the conversation.",
+      "Ignore the comments to avoid drawing attention to them and potentially embarrassing either group member."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Diversity & Inclusion",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 36,
+    "scenario": "You are working with a client who is Deaf and communicates using British Sign Language (BSL). They express frustration that the interpreter provided by the service is not accurately conveying the emotional nuance of their communication, affecting their therapy experience.",
+    "options": [
+      "Acknowledge their concerns, discuss what specific issues they're experiencing with interpretation, request a different BSL interpreter who specializes in mental health contexts, and consider seeking training in basic BSL yourself.",
+      "Refer them to a therapist who is fluent in BSL if one exists in your area.",
+      "Recommend switching to written communication during sessions to avoid misinterpretation.",
+      "Continue with the current interpreter but speak more slowly and use simpler language.",
+      "Suggest they bring a family member to interpret instead."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 37,
+    "scenario": "You are assessing an older adult from a South Asian background for memory concerns. Their adult children have attended the appointment and explain that in their culture, it would be disrespectful to directly ask their parent questions about memory problems or to suggest they have dementia.",
+    "options": [
+      "Acknowledge cultural differences in approaching cognitive health, adapt your assessment approach to be culturally sensitive while still gathering necessary clinical information, and involve the family in developing an acceptable care plan.",
+      "Proceed with the full assessment but avoid using terms like \"dementia\" or \"memory problems\" in discussions.",
+      "Suggest the family consult a healthcare professional from their own cultural background instead.",
+      "Direct all questions to the family members instead of the client.",
+      "Insist on standard assessment protocols, explaining that clinical requirements must take precedence over cultural preferences."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 38,
+    "scenario": "During a therapy session with a client from a different cultural background than your own, they describe a traditional healing ritual they've participated in for their mental health difficulty. Some aspects of this ritual conflict with the evidence-based psychological approach you've been using.",
+    "options": [
+      "Show interest in understanding the ritual's meaning and perceived benefits for them, discuss how traditional practices might complement or integrate with psychological approaches, and collaborate on a treatment plan that respects both.",
+      "Suggest they should follow traditional practices instead of psychological therapy if that aligns better with their cultural values.",
+      "Express concern that the ritual might be harmful to their mental health.",
+      "Explain that such traditional practices are incompatible with evidence-based therapy and ask them to choose between approaches.",
+      "Ignore their mention of the ritual and continue with your planned therapeutic approach."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Diversity & Inclusion",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 39,
+    "scenario": "You are working with a client who has religious beliefs that include the idea that their mental health difficulties are a form of spiritual testing or punishment. These beliefs appear to be increasing their distress and feelings of shame.",
+    "options": [
+      "Explore their religious understanding with respect, consider how their faith might be both a resource and a challenge, collaborate on an approach that addresses psychological needs while respecting religious beliefs, and consider involving a religious leader with their permission.",
+      "Avoid discussing religion entirely and focus only on psychological techniques.",
+      "Refer them to religious counseling instead of continuing psychological therapy.",
+      "Challenge their religious interpretation as harmful and encourage a purely psychological understanding of their difficulties.",
+      "Agree with their religious interpretation to build rapport, even if it increases their distress."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Practice",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 40,
+    "scenario": "You are providing psychological therapy to a client from a collectivist cultural background. They express discomfort with the individualistic focus of setting personal goals separate from family needs, and mention that they need to consult family members before making decisions about their treatment.",
+    "options": [
+      "Adapt your therapeutic approach to incorporate collective decision-making and family-centered goals where appropriate, while balancing this with clinical requirements and the client's individual agency.",
+      "Suggest family therapy instead of individual therapy since they prefer family involvement.",
+      "Invite family members to attend all future therapy sessions without exploring other options.",
+      "Explain that therapy requires individual decision-making and they need to develop more independence from their family.",
+      "Insist on continuing with the standard individualistic approach, explaining it's evidence-based regardless of cultural background."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Boundaries",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 41,
+    "scenario": "In a multidisciplinary team meeting discussing a complex case, a senior psychiatrist dismisses your psychological formulation and suggests medication changes instead, stating, \"Let's focus on treatments that actually work.\" Several team members look uncomfortable but remain silent.",
+    "options": [
+      "Acknowledge the different perspective calmly, suggest that both psychological and medication approaches might be valuable for this client, and propose discussing the complementary roles of both approaches in a future case discussion.",
+      "Challenge the psychiatrist directly in the meeting, citing evidence for psychological interventions.",
+      "Remain silent during the meeting and later complain about the psychiatrist to your supervisor.",
+      "Agree with the psychiatrist to avoid conflict and withdraw your suggestions.",
+      "Immediately leave the meeting to show your disapproval."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Interprofessional Working",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 42,
+    "scenario": "You observe a fellow trainee clinical psychologist conducting an assessment with a client. You notice they are asking leading questions and misinterpreting some of the client's responses to fit their preconceived formulation.",
+    "options": [
+      "Wait until after the session and offer specific, constructive feedback in private about the observations, using a curious and supportive approach rather than criticism.",
+      "Say nothing, as they need to learn from their own mistakes.",
+      "Discuss your concerns with their supervisor without speaking to them first.",
+      "Take over the assessment yourself, explaining to the client that your colleague is still learning.",
+      "Interrupt the session to correct their technique in front of the client."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 43,
+    "scenario": "You discover that a psychiatrist in your team has been recommending clients download a mental health app that charges users for services, without disclosing that they receive financial benefits from the company for referrals.",
+    "options": [
+      "Speak directly with the psychiatrist first to understand the situation and express your concerns about the potential conflict of interest, then follow organizational policies regarding conflicts of interest if needed.",
+      "Discuss your concerns with other team members to gather their opinions before deciding what to do.",
+      "Immediately report the psychiatrist to the GMC for unethical behavior.",
+      "Inform all the psychiatrist's clients about the financial arrangement without speaking to the psychiatrist first.",
+      "Ignore the situation as it doesn't directly affect your clinical work."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 44,
+    "scenario": "During a joint home visit with a social worker to assess a vulnerable older adult, you observe the social worker using dismissive language and ignoring important concerns raised by the client. After the visit, the social worker writes an assessment that you believe significantly underestimates the client's needs and risks.",
+    "options": [
+      "Discuss your different perspectives with the social worker directly, focusing on specific observations and concerns rather than criticizing their approach, and suggest writing complementary assessments if agreement cannot be reached.",
+      "Write your own completely separate assessment without consulting the social worker.",
+      "Report the social worker to their manager for unprofessional conduct.",
+      "Tell the client that you disagree with the social worker's assessment and encourage them to make a complaint.",
+      "Sign off on the social worker's assessment despite your concerns to maintain professional relationships."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Risk Management",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 45,
+    "scenario": "You are co-facilitating a therapy group with a nurse specialist. During the sessions, you notice they frequently interrupt clients, provide advice rather than facilitating reflection, and sometimes share personal anecdotes that take up significant session time.",
+    "options": [
+      "Arrange a private debriefing session to discuss facilitation approaches, suggest structured co-facilitation roles, and offer constructive feedback framed around the group's therapeutic needs.",
+      "Say nothing but gradually reduce their role in the group by taking more time yourself.",
+      "Speak to their supervisor about your concerns without talking to them first.",
+      "Take over leadership of the group sessions without discussion.",
+      "Interrupt them during the group when they start giving advice or telling personal stories."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Boundaries",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.474Z"
+  },
+  {
+    "id": 46,
+    "scenario": "You are providing psychological assessment for a patient on a psychiatric ward. The nursing staff inform you that the patient is \"manipulative,\" \"attention-seeking,\" and \"not really ill.\" When you meet the patient, they present with symptoms consistent with emotional instability and trauma history.",
+    "options": [
+      "Conduct your assessment objectively, later share your formulation with the team using psychological terminology and explanations that help reframe the patient's behaviors in terms of underlying needs and coping strategies.",
+      "Avoid engaging with the nursing team's perspectives and work separately with the patient.",
+      "Tell the nursing team immediately that their language is unprofessional and stigmatizing.",
+      "Report the nursing team's attitude to the ward manager without discussing it with them directly.",
+      "Accept the nursing team's characterization and focus your assessment on validating their perspective."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 47,
+    "scenario": "In an MDT meeting, you notice that junior team members and allied health professionals rarely speak up, while decisions are dominated by medical staff. You have ideas that differ from the current treatment plan for a client but are hesitant to share them.",
+    "options": [
+      "Share your perspective on the specific case in a clear, evidence-based manner, then suggest team reflection on decision-making processes to ensure all disciplines contribute equally.",
+      "Wait until after the meeting and email your alternative treatment suggestions to the team.",
+      "Speak to each team member individually after the meeting to gather support for your ideas.",
+      "Raise your concerns about team dynamics as the primary issue before discussing the client.",
+      "Remain silent about your ideas, deferring to medical colleagues' expertise."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 48,
+    "scenario": "A colleague from another discipline approaches you informally in the hallway to discuss a shared client, mentioning sensitive details in a busy area where conversations might be overheard by others.",
+    "options": [
+      "Politely suggest moving to a private space before continuing the clinical discussion, explaining the confidentiality concern.",
+      "Tell them you're too busy to talk right now without explaining why.",
+      "Speak in code or use only the client's initials to maintain some confidentiality while staying in the hallway.",
+      "Continue the conversation in the hallway since it's a necessary clinical discussion with another professional.",
+      "Report them to their supervisor for breaching confidentiality."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 49,
+    "scenario": "You receive a referral letter from a GP requesting an \"urgent psychological assessment\" for a client with depression, stating that the patient \"desperately needs CBT as medication hasn't worked.\" Your initial screening suggests that a different therapeutic approach might be more appropriate based on the client's presentation.",
+    "options": [
+      "Complete a comprehensive assessment, and if your clinical judgment still suggests an alternative approach, discuss this with the client first and then provide detailed rationale to the GP.",
+      "Contact the GP to challenge their understanding of psychological therapies before seeing the client.",
+      "Proceed with an alternative therapy approach without informing the GP of the change in plan.",
+      "Refer the client back to the GP explaining that they don't meet criteria for CBT.",
+      "Provide CBT as requested without questioning the GP's clinical judgment."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 50,
+    "scenario": "During a professionals' meeting about a child safeguarding case, you share concerns based on your assessment that contradict the social worker's view. The social worker becomes visibly angry, stating that psychologists \"always complicate things with fancy formulations\" when clear action is needed.",
+    "options": [
+      "Acknowledge the urgency of child protection decisions while calmly maintaining the relevance of your professional assessment, suggest discussing both perspectives to reach an integrated understanding, and remain focused on the child's best interests.",
+      "Remain silent for the remainder of the meeting, then document your concerns separately.",
+      "Escalate the disagreement to senior managers to resolve the conflict.",
+      "Engage in direct confrontation with the social worker about their dismissive attitude toward psychological perspectives.",
+      "Apologize for causing confusion and withdraw your assessment to support the social worker's plan."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 51,
+    "scenario": "You are struggling with a complex case on placement and realize you've made an error in your therapeutic approach that may have been unhelpful for the client. Your next supervision session is two weeks away.",
+    "options": [
+      "Request an earlier supervision meeting or brief consultation with your supervisor, bring prepared notes about the situation, be open about the mistake, and focus on learning and rectifying any impact.",
+      "Wait for your scheduled supervision in two weeks to discuss the issue.",
+      "Consult with fellow trainees about how to handle the situation instead of involving your supervisor.",
+      "Change your approach without mentioning the previous error to either the client or supervisor.",
+      "Refer the client to another therapist without explaining your concerns."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 52,
+    "scenario": "You receive feedback from your supervisor that your clinical reports are too long, overly theoretical, and don't provide clear recommendations. You feel the level of detail is necessary to explain your formulations properly.",
+    "options": [
+      "Thank your supervisor for the feedback, ask to review examples of effective reports, discuss the specific expectations for different audiences, and practice writing more concise reports while seeking ongoing feedback.",
+      "Ask another supervisor for their opinion on your report writing style.",
+      "Continue writing in your preferred style but add an executive summary at the beginning.",
+      "Defend your writing style, explaining why you believe the detail is necessary.",
+      "Significantly reduce the length of your reports by removing most theoretical content without discussing this further."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Development",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 53,
+    "scenario": "You are finding your current placement emotionally challenging as many clients have experienced traumas similar to your own personal experiences. You notice you're becoming increasingly distressed after sessions and thinking about clients outside of work hours.",
+    "options": [
+      "Discuss these reactions in supervision without necessarily disclosing personal details, enhance self-care strategies, consider personal therapy if needed, and reflect on professional boundaries while maintaining client care.",
+      "Continue working without mentioning your distress, using only self-care strategies to manage.",
+      "Take sick leave until you feel more emotionally stable.",
+      "Request a transfer to a different placement with a different client population.",
+      "Disclose your personal trauma history to clients to build rapport through shared experience."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Boundaries",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 54,
+    "scenario": "You are three months into your placement and realize that you have not been offered the weekly supervision that was agreed upon in your learning contract. Your supervisor often cancels sessions at short notice due to clinical emergencies.",
+    "options": [
+      "Request a meeting with your supervisor to discuss supervision arrangements, express the impact on your training needs, suggest solutions such as protected time or alternative arrangements, and involve university tutors if needed.",
+      "Document all cancellations but don't address the issue directly until your end-of-placement review.",
+      "Continue working without regular supervision, using peer support instead.",
+      "Complain formally to the head of the service without discussing with your supervisor first.",
+      "Start declining client work, citing lack of appropriate supervision."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 55,
+    "scenario": "During a therapy session with a client who has complex PTSD, they ask you a technical question about memory reconsolidation that you don't know how to answer. You have claimed expertise in trauma therapy during previous sessions.",
+    "options": [
+      "Honestly acknowledge the limits of your current knowledge, validate their interest, offer to research the topic for next session, and reflect on how to be more transparent about your developing expertise in the future.",
+      "Provide an answer based on your general understanding, even if you're unsure it's accurate.",
+      "Change the subject to redirect away from the question.",
+      "Tell them that the question isn't relevant to their therapy and they should focus on their emotions instead.",
+      "End the session early, explaining you need to consult with your supervisor before continuing."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 56,
+    "scenario": "You are running behind schedule and arrive 15 minutes late for a client session. This is the third time in recent weeks that you've been late for this particular client.",
+    "options": [
+      "Apologize sincerely without excessive explanation, acknowledge the pattern, discuss the impact on the therapeutic relationship, offer to extend the session if possible, and take concrete steps to prevent future lateness.",
+      "Briefly apologize and continue with the session as if nothing unusual happened.",
+      "Provide a detailed explanation of all the factors that made you late to justify the delay.",
+      "Focus the session on exploring how the client feels about your lateness as a therapeutic opportunity.",
+      "Offer to provide an extra session free of charge to make up for the lost time."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 57,
+    "scenario": "Your clinical supervisor suggests you use a specific therapeutic technique with a client that contradicts what you've been taught at university. When you mention this discrepancy, they dismiss academic teaching as \"out of touch with real clinical practice.\"",
+    "options": [
+      "Respectfully acknowledge both perspectives, ask questions to understand the supervisor's clinical reasoning, consult relevant literature, and discuss how to integrate academic knowledge with practical clinical wisdom.",
+      "Implement a compromise approach without discussing it further with either your supervisor or university tutors.",
+      "Follow your supervisor's advice without question since they have more clinical experience.",
+      "Rigidly adhere to what you were taught at university, disregarding your supervisor's suggestion.",
+      "Report your supervisor to the course director for teaching inappropriate techniques."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Practice",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 58,
+    "scenario": "You have a strong theoretical preference for psychodynamic approaches, but your placement primarily uses CBT. You've been asked to take on several new clients for CBT intervention, an approach you feel less confident in and somewhat skeptical about.",
+    "options": [
+      "Accept the opportunity to develop CBT skills, seek additional training/resources, utilize supervision to build competence, and maintain openness to integrating useful elements while reflecting on your theoretical preferences.",
+      "Request to work only with clients suitable for psychodynamic approaches.",
+      "Decline to take the new clients, explaining your theoretical preference.",
+      "Accept the clients but express your doubts about CBT effectiveness to them during sessions.",
+      "Accept the clients but primarily use psychodynamic techniques without informing your supervisor."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Development",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 59,
+    "scenario": "You are on placement in a service with limited resources and high demand. Your supervisor suggests you discharge a client after four sessions, despite minimal improvement and your clinical judgment that they need more therapy.",
+    "options": [
+      "Discuss your assessment of the client's needs with your supervisor, providing clinical evidence for continued treatment while acknowledging service constraints, and explore potential compromises or alternative support options.",
+      "Discharge the client as suggested without raising your concerns.",
+      "Refer the client to a different service without discussing alternatives with your supervisor.",
+      "Tell the client they should make a complaint about premature discharge.",
+      "Continue seeing the client for additional sessions without informing your supervisor."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 60,
+    "scenario": "You receive feedback from clients and team members that your clinical style is sometimes overly academic and uses psychological jargon that is difficult to understand.",
+    "options": [
+      "Thank them for the feedback, actively work on adapting your communication style for different audiences, practice using clearer explanations, and seek ongoing feedback about improvements.",
+      "Ask for specific examples of jargon to eliminate but otherwise maintain your current style.",
+      "Provide written glossaries of psychological terms to clients and colleagues.",
+      "Start avoiding psychological concepts entirely in discussions with clients and team members.",
+      "Defend your communication style as appropriately professional and technical."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Development",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 61,
+    "scenario": "You work in a CMHT where waiting lists for psychological therapy are currently 9 months long. You receive a referral from a GP marked \"urgent\" for a client with moderate depression following a relationship breakdown 3 weeks ago.",
+    "options": [
+      "Review the referral information, conduct a brief screening assessment to determine actual urgency and risk, offer appropriate interim support options (e.g., guided self-help, groups), and place on the waiting list with clear expectations about waiting times.",
+      "Offer a one-off consultation but explain that no further sessions will be available for 9 months.",
+      "Return the referral to the GP explaining that all clients have to wait equally.",
+      "Suggest the GP refers to private therapy services instead due to NHS waiting times.",
+      "Place the client at the top of the waiting list based on the GP's \"urgent\" designation."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Professional Boundaries",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 62,
+    "scenario": "You work in a psychological service that strictly implements NICE guidelines, requiring you to deliver a set number of sessions of a specific therapy modality for each diagnosis. You've been allocated a client whose presentation is complex and doesn't neatly fit the protocol, and you believe they would benefit from an integrative approach.",
+    "options": [
+      "Discuss with your supervisor how the client's needs might be addressed within service constraints, suggest evidence-based adaptations to the standard protocol, and document your clinical reasoning clearly.",
+      "Refer the client to another service that might offer more flexibility in therapeutic approach.",
+      "Follow the protocol exactly despite your clinical concerns to adhere to service requirements.",
+      "Tell the client that service constraints mean they won't receive optimal treatment and suggest they complain.",
+      "Deliver your preferred integrative approach without discussing it with your supervisor or documenting the deviation."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 63,
+    "scenario": "Your psychology service is implementing a new electronic record system. You have concerns about the confidentiality of client information in the new system, which allows much broader access to records across different NHS teams than the previous system.",
+    "options": [
+      "Raise specific concerns through appropriate channels (team meetings, IT governance leads), suggest potential solutions to balance information sharing with privacy, and ensure clients are informed about records access.",
+      "Send an all-staff email outlining your confidentiality concerns about the new system.",
+      "Discuss your concerns with clients and let them decide whether their information should be entered into the new system.",
+      "Continue using paper records or the old system until your concerns are addressed.",
+      "Adapt your record-keeping to include less sensitive information without telling anyone."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 64,
+    "scenario": "Your service has introduced mandatory outcome measures to be completed at every session. You notice that completing these measures takes 10-15 minutes of each therapeutic hour, and some clients find the repetitive questions distressing or irrelevant.",
+    "options": [
+      "Implement the measures as required, but discuss with management how to minimize disruption to therapy, suggest potential modifications for certain client groups, and explain the purpose meaningfully to clients.",
+      "Complete the measures yourself based on your clinical judgment when clients are reluctant.",
+      "Start sessions 15 minutes early (unpaid) to accommodate the measures without reducing therapy time.",
+      "Skip the measures for clients who find them distressing without discussing this with management.",
+      "Rigidly enforce completion regardless of client distress, explaining it's a service requirement."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 65,
+    "scenario": "You discover that your psychology service is significantly understaffed compared to national guidelines, with caseloads double the recommended size. This is affecting the quality of care you can provide and causing stress among all team members.",
+    "options": [
+      "Collaborate with colleagues to document specific impacts on care quality and staff wellbeing, present this evidence constructively to management with potential solutions, and help develop a sustainable workload management plan.",
+      "Individually refuse to take on more clients than you can safely manage, without addressing the systemic issue.",
+      "Continue with the excessive workload while documenting all negative outcomes as evidence.",
+      "Start looking for another job without raising concerns.",
+      "Organize staff to formally unionize and threaten industrial action."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 66,
+    "scenario": "Your service is relocating to a new building, and you discover that the therapy rooms will now be shared spaces rather than dedicated rooms. This means you cannot leave assessment materials, therapeutic resources, or client artwork between sessions, and rooms may not be consistently available.",
+    "options": [
+      "Engage constructively with the planning process, highlight specific therapeutic needs for consistency and resource access, propose practical solutions, and help develop systems for room allocation and resource storage.",
+      "Accept the changes without comment and adapt your practice accordingly.",
+      "Start conducting more home visits to avoid using the shared spaces.",
+      "Complain to senior management without offering solutions.",
+      "Refuse to relocate, insisting on keeping your current dedicated space."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 67,
+    "scenario": "A new service policy requires that all therapeutic groups must have at least 8 participants to run. You've developed a specialized trauma group that research suggests works optimally with 4-6 participants, and you're concerned about the therapeutic impact of larger groups for vulnerable trauma survivors.",
+    "options": [
+      "Present evidence-based rationale for smaller group sizes in trauma work to management, suggest piloting the smaller group with evaluation to demonstrate outcomes, and propose cost-effective alternatives if needed.",
+      "Run the group with 8+ participants despite clinical concerns to comply with policy.",
+      "Cancel the group and see clients individually instead.",
+      "Run the group with fewer participants without management approval.",
+      "Tell clients about the policy change and suggest they complain if they want the group to run."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Safeguarding",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 68,
+    "scenario": "You work in an IAPT service where the expectation is to see clients for a maximum of 6-8 sessions of guided self-help. You are working with a client who has made progress but still has significant symptoms after 8 sessions, and they are distressed about ending therapy.",
+    "options": [
+      "Review progress explicitly with the client, discuss service limitations transparently, create a relapse prevention plan, identify ongoing support options, and consider if a step-up to more intensive treatment is indicated.",
+      "Discharge them but offer unofficial contact via email for support.",
+      "Tell them that if they report feeling worse, you can justify additional sessions.",
+      "End treatment at 8 sessions regardless of their progress or concerns.",
+      "Continue seeing them for additional sessions without discussing with your supervisor."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 69,
+    "scenario": "Your psychology service is being pressured to reduce assessment times to increase throughput. The new protocol requires completing comprehensive assessments in 60 minutes, which you find insufficient for complex cases.",
+    "options": [
+      "Implement the new protocol where appropriate, document when additional time is clinically necessary, suggest a triaged approach where complexity determines assessment length, and collect outcome data on assessment quality.",
+      "Document clinical concerns but do not raise them directly with management.",
+      "Refer complex cases to other services to avoid assessment difficulties.",
+      "Consistently take longer than the allocated time without discussion with management.",
+      "Rush assessments to meet the time constraint regardless of clinical impact."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Service Delivery",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  },
+  {
+    "id": 70,
+    "scenario": "You work in a neuropsychology service where a new policy states that detailed assessment reports should only be sent to referring clinicians, with a simplified one-page summary for clients. Several clients have requested their full reports, expressing that they want complete information about their cognitive functioning.",
+    "options": [
+      "Explain to clients their right to access their information, discuss with the team how to balance service efficiency with patient rights, and develop guidance for making full reports more accessible when requested.",
+      "Suggest clients make formal subject access requests to receive their full reports.",
+      "Strictly adhere to the policy despite client requests.",
+      "Create two different versions of reports without telling managers - official ones for the service and more detailed ones for clients who ask.",
+      "Send full reports to all clients regardless of the policy."
+    ],
+    "correctRanking": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "category": "Confidentiality",
+    "source": "direct_extraction",
+    "extractedAt": "2025-08-28T22:33:43.475Z"
+  }
+]

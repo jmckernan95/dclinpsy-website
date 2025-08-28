@@ -1,0 +1,383 @@
+{
+  "generatedAt": "2025-08-28T22:18:14.065Z",
+  "summary": {
+    "totalQuestions": 5,
+    "validQuestions": 1,
+    "flaggedQuestions": 4,
+    "errorQuestions": 0,
+    "averageConfidence": 19,
+    "estimatedCost": 0.001
+  },
+  "guidelinesUsed": [
+    "BPS Code of Ethics and Conduct",
+    "BPS Practice Guidelines",
+    "HCPC Standards of Conduct, Performance and Ethics"
+  ],
+  "validatedQuestions": [
+    {
+      "id": 60,
+      "scenario": "You receive feedback from clients and team members that your clinical style is sometimes overly academic and uses psychological jargon that is difficult to understand.",
+      "options": [
+        "Thank them for the feedback, actively work on adapting your communication style for different audiences, practice using clearer explanations, and seek ongoing feedback about improvements.",
+        "Provide written glossaries of psychological terms to clients and colleagues.",
+        "Start avoiding psychological concepts entirely in discussions with clients and team members.",
+        "Defend your communication style as appropriately professional and technical.",
+        "# Service Delivery - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response demonstrates openness to feedback and commitment to developing effective communication. The BPS Practice Guidelines emphasize clear communication adapted to diverse audiences. This approach shows professional maturity by accepting feedback constructively rather than defensively, recognizing that effective communication requires adaptation to different audiences, actively working to develop this core professional skill, and establishing ongoing feedback mechanisms to monitor improvement. It models the reflective practice and communication flexibility essential for effective psychological work.",
+        "This approach accepts targeted feedback but limits the scope of adaptation. The HCPC Standards support seeking specific feedback while emphasizing broader communication skills. While requesting concrete examples demonstrates some receptiveness to improvement and provides practical guidance for change, focusing only on eliminating specific terms rather than developing a more flexible communication style represents a limited response to the feedback. However, it does acknowledge the need for some adaptation rather than completely dismissing the concern.",
+        "This response acknowledges the issue but implements an impractical workaround. The BPS guidelines emphasize accessible communication rather than expecting others to learn professional terminology. While providing explanations of terms demonstrates some recognition of the communication barrier, expecting clients and colleagues to reference glossaries rather than adapting communication style represents an impractical solution that places burden on others rather than developing more accessible communication. It attempts to address the issue but through an inefficient approach.",
+        "This approach overcompensates by removing important conceptual content. The HCPC Standards support accessible language while maintaining appropriate professional communication. While simplifying language has merit, completely avoiding psychological concepts represents an overcorrection that potentially reduces the value of psychological perspectives in client work and team discussions. It demonstrates an all-or-nothing response to feedback rather than developing the balanced communication that integrates concepts with accessible language.",
+        "This is the least appropriate action as it dismisses legitimate feedback about core professional skills. The BPS Code of Ethics emphasizes client-centered communication and professional development through feedback. This approach fails to recognize that effective communication requires adaptation to audience understanding rather than adherence to academic conventions, prioritizes personal preference over professional effectiveness, and demonstrates resistance to developing essential communication flexibility. It represents poor professional development practice that values academic style over functional communication. # Service Delivery - Situational Judgment Test Answers"
+      ],
+      "category": "Interprofessional Working",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": true,
+        "confidence": 95,
+        "rankingAssessment": "Correct",
+        "overallAssessment": "Scenario is realistic and clinically accurate. Ranking aligns well with BPS/HCPC standards, prioritising self-reflection, client-centred communication, and professional collaboration.",
+        "rawResponse": "VALID: YES\nCONFIDENCE: 95%\nRANKING: Correct\nASSESSMENT: Scenario is realistic and clinically accurate. Ranking aligns well with BPS/HCPC standards, prioritising self-reflection, client-centred communication, and professional collaboration."
+      },
+      "validatedAt": "2025-08-28T22:18:14.065Z"
+    }
+  ],
+  "flaggedQuestions": [
+    {
+      "id": 20,
+      "scenario": "You are running a therapy group for people with anxiety disorders. After the session, one member approaches you privately and discloses that another group member has been sending them inappropriate and increasingly threatening messages via social media, demanding they meet outside the group.",
+      "options": [
+        "Listen to their concerns, assess the nature and severity of the threats, advise on immediate safety steps (blocking contacts, etc.), and develop a plan that may include speaking with the other member, changing group composition, or involving other services as appropriate.",
+        "Immediately remove the threatening member from the group without further investigation.",
+        "Address the issue with both members present to mediate the situation.",
+        "Ask them to handle it themselves as it's happening outside the group setting.",
+        "# Ethical Dilemmas - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response comprehensively addresses safety concerns while gathering necessary information for proportionate intervention. The BPS Practice Guidelines emphasize thorough assessment before determining appropriate action levels for concerning behavior. This approach demonstrates clinical best practice by prioritizing the threatened member's safety while gathering essential information about the nature and severity of threats to inform proportionate intervention, balancing immediate safety advice with considered planning for longer-term management, maintaining therapeutic boundaries while fulfilling duty of care to all group members.",
+        "This approach provides practical safety advice but lacks comprehensive assessment and intervention. The HCPC Standards acknowledge the need for practical guidance while emphasizing fuller assessment of concerning situations. While this option offers immediately useful safety steps that the member can implement, it represents an incomplete response that fails to fully assess the threat level or address the inappropriate behavior within the group context, essentially placing responsibility for managing the situation primarily on the recipient of the threatening messages.",
+        "This response prioritizes apparent safety but lacks due process and thorough assessment. The BPS guidelines acknowledge the need for therapeutic boundaries while emphasizing fair processes. While this approach recognizes the seriousness of threatening behavior and prioritizes creating a safe therapeutic environment, taking significant action without investigation or hearing both perspectives represents a procedurally unfair approach that may be disproportionate to the actual situation and fails to model appropriate conflict resolution processes within the therapeutic setting.",
+        "This approach attempts resolution but potentially creates safety risks for the threatened member. The HCPC Standards emphasize client safety in therapeutic interventions. While mediation has value in some interpersonal conflicts, bringing together the threatening member with the person they've threatened creates potential for intimidation, discomfort, or escalation rather than resolution. This fails to recognize the power dynamic created by threatening behavior and could re-traumatize the recipient of threats, representing poor judgment in managing potential risk situations within therapeutic contexts.",
+        "This is the least appropriate action as it abdicates professional responsibility for group member safety. The BPS Code of Ethics clearly acknowledges that therapeutic responsibility extends to interactions between group members that impact therapeutic safety. This approach incorrectly assumes that behavior outside scheduled sessions is beyond professional concern, failing to recognize that threatening behavior between group members fundamentally impacts therapeutic safety regardless of where it occurs. It represents a serious misunderstanding of professional boundaries and responsibilities in group therapy contexts. # Ethical Dilemmas - Situational Judgment Test Answers"
+      ],
+      "category": "Risk Management",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:17:47.264Z"
+    },
+    {
+      "id": 30,
+      "scenario": "You have been court-ordered to provide an assessment for a child custody case. During your assessment, you find evidence supporting the father's position, but you also discover he made a significant donation to the mental health charity where you volunteer. You were unaware of this connection before conducting the assessment.",
+      "options": [
+        "Immediately disclose the potential conflict of interest to the court and all parties involved, and discuss with the court whether you should withdraw from the case or continue if all parties consent.",
+        "Complete the assessment as planned without mentioning the donation, as your professional judgment remains unaffected.",
+        "Disclose the connection only to the mother's legal team to allow them to decide how to proceed.",
+        "Complete the assessment but ensure your recommendations are particularly critical of the father to compensate for potential bias.",
+        "# Diversity and Inclusion - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response demonstrates transparent management of a previously unknown conflict of interest. The BPS Practice Guidelines and HCPC Standards emphasize transparency about potential conflicts of interest in forensic work. This approach demonstrates professional integrity by promptly disclosing the discovered connection to all relevant parties rather than making unilateral decisions, allowing the court to determine whether the assessment remains viable, and ensuring that all parties have equal information about the potential conflict, maintaining the credibility and impartiality expected in court-ordered assessments.",
+        "This approach removes the conflict but lacks transparency about reasons. The HCPC Standards acknowledge the need to address conflicts of interest in professional work. While this option appropriately recognizes that the donation creates a potential conflict that could affect assessment impartiality (or perceptions thereof), withdrawing without explanation fails to fulfill the transparency expected in forensic contexts and may create delays in the court process, though it does effectively remove the conflict of interest from affecting the case outcome.",
+        "This response continues professional work while assuming impartiality despite the conflict. The BPS guidelines acknowledge that some conflicts may be manageable but emphasize transparency in forensic contexts. While personal confidence in continued objectivity has some merit, this approach fails to recognize that conflicts of interest in forensic work concern both actual and perceived impartiality. Not disclosing the connection could undermine the credibility of the assessment if later discovered, potentially affecting the court's perception of the entire report.",
+        "This approach acknowledges the conflict but creates procedural unfairness through selective disclosure. The HCPC Standards require transparency and fairness to all parties in professional activities. While this option recognizes the need to disclose the potential conflict, selectively informing only one party creates fundamental unfairness in what should be an impartial process. It inappropriately places decision-making about a potential conflict in the hands of one interested party rather than the court, potentially creating procedural complications and appearance of bias.",
+        "This is the least appropriate action as it deliberately introduces bias to compensate for perceived bias. The BPS Code of Ethics requires objectivity and fairness in all professional assessments. This approach fundamentally misunderstands professional responsibility by intentionally skewing findings against the father, replacing one form of potential bias with actual, deliberate bias. It represents a serious ethical breach that violates the core principles of forensic assessment, potentially harming both the father and the child through distorted recommendations to the court. # Diversity and Inclusion - Situational Judgment Test Answers"
+      ],
+      "category": "Safeguarding",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:17:54.091Z"
+    },
+    {
+      "id": 40,
+      "scenario": "You are providing psychological therapy to a client from a collectivist cultural background. They express discomfort with the individualistic focus of setting personal goals separate from family needs, and mention that they need to consult family members before making decisions about their treatment.",
+      "options": [
+        "Adapt your therapeutic approach to incorporate collective decision-making and family-centered goals where appropriate, while balancing this with clinical requirements and the client's individual agency.",
+        "Invite family members to attend all future therapy sessions without exploring other options.",
+        "Explain that therapy requires individual decision-making and they need to develop more independence from their family.",
+        "Insist on continuing with the standard individualistic approach, explaining it's evidence-based regardless of cultural background.",
+        "# Interprofessional Working - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response adapts therapeutic approach to cultural values while maintaining clinical integrity. The BPS Practice Guidelines emphasize culturally responsive therapy that respects diverse worldviews and relational structures. This approach demonstrates cultural competence by recognizing that effective therapy must work within relevant cultural frameworks, adapting individualistic Western approaches to incorporate collective values, and balancing respect for family involvement with attention to the client's individual needs and agency within their cultural context, representing a sophisticated culturally adapted approach rather than rigid adherence to Western models.",
+        "This approach offers an alternative therapeutic format that may better match cultural values. The HCPC Standards support providing appropriate service modalities aligned with client needs. While this option recognizes the importance of family context in collectivist cultures, automatically shifting to family therapy without exploring adaptations to individual therapy may not address the specific needs that brought the client to individual treatment. However, it does acknowledge the central importance of family systems in collectivist cultures and offers a legitimate therapeutic alternative.",
+        "This response incorporates family but imposes a specific solution without collaboration. The BPS guidelines support family involvement while emphasizing collaborative decision-making. While this approach recognizes the importance of family in collectivist cultures, automatically including family without exploring the client's preferences regarding which sessions or topics would benefit from family presence represents an overly simplistic response to cultural difference. It correctly acknowledges family significance but implements this understanding without sufficient nuance or client input.",
+        "This approach imposes Western values of independence over the client's cultural framework. The HCPC Standards require respect for diverse cultural values in professional practice. This response demonstrates poor cultural competence by positioning family connectedness as dependence rather than a valid cultural orientation, imposing individualistic values incompatible with the client's worldview, and potentially creating unnecessary conflict between therapeutic engagement and cultural identity, undermining the therapeutic relationship and treatment effectiveness.",
+        "This is the least appropriate action as it rigidly applies Western models without cultural adaptation. The BPS Code of Ethics emphasizes respect for cultural diversity and evidence-based practice. This approach fundamentally misunderstands evidence-based practice, which includes cultural adaptation of proven interventions, not rigid application regardless of context. It fails to recognize that most therapy models were developed and validated primarily in Western individualistic contexts and require thoughtful adaptation for effectiveness with clients from collectivist cultures where self and identity are inherently relational. # Interprofessional Working - Situational Judgment Test Answers"
+      ],
+      "category": "Professional Boundaries",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:18:00.563Z"
+    },
+    {
+      "id": 50,
+      "scenario": "During a professionals' meeting about a child safeguarding case, you share concerns based on your assessment that contradict the social worker's view. The social worker becomes visibly angry, stating that psychologists \"always complicate things with fancy formulations\" when clear action is needed.",
+      "options": [
+        "Acknowledge the urgency of child protection decisions while calmly maintaining the relevance of your professional assessment, suggest discussing both perspectives to reach an integrated understanding, and remain focused on the child's best interests.",
+        "Escalate the disagreement to senior managers to resolve the conflict.",
+        "Engage in direct confrontation with the social worker about their dismissive attitude toward psychological perspectives.",
+        "Apologize for causing confusion and withdraw your assessment to support the social worker's plan.",
+        "# Trainee Development - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response balances acknowledging legitimate urgency concerns with maintaining the value of thorough assessment. The BPS Practice Guidelines emphasize collaborative working in safeguarding while contributing psychological understanding to decision-making. This approach demonstrates professional maturity by validating the social worker's concern about timely action while maintaining the importance of psychological perspectives in understanding risk, suggesting integration rather than competition between viewpoints, and maintaining focus on the child's needs rather than professional disagreement or defending professional territory.",
+        "This approach documents concerns but fails to ensure they influence current decision-making. The HCPC Standards require documentation of professional judgment while emphasizing active contribution to safeguarding. While this response appropriately ensures concerns are recorded, remaining silent during the meeting when critical decisions are being made potentially allows important psychological perspectives to be excluded from the safeguarding plan. However, it does avoid escalating an already tense situation and ensures concerns are at least documented for future reference.",
+        "This response seeks resolution through appropriate channels but may delay urgent decision-making. The BPS guidelines acknowledge management structures while emphasizing timely safeguarding processes. While this approach appropriately recognizes the seriousness of professional disagreement in safeguarding contexts, immediate escalation without attempting resolution in the meeting potentially delays critical child protection decisions. It may be appropriate if direct discussion proves impossible but represents a significant step that should follow attempted professional dialogue.",
+        "This approach addresses unprofessional behavior but risks derailing the safeguarding focus. The HCPC Standards support professional respect while emphasizing child-centered practice. While this response legitimately challenges dismissive attitudes toward psychological contributions to safeguarding, focusing on the interprofessional conflict rather than the child's needs represents misplaced priorities in a safeguarding context. It may address important professional dynamics but at the risk of further inflaming tensions when child protection decisions are urgently needed.",
+        "This is the least appropriate action as it abandons professional responsibility to contribute psychological perspectives to safeguarding. The BPS Code of Ethics emphasizes maintaining appropriate professional contributions to child protection despite challenges. This approach fails to fulfill the fundamental duty to provide relevant psychological information in safeguarding cases, potentially allowing important risk factors to remain unaddressed, prioritizing conflict avoidance over child protection, and reinforcing unhelpful dismissal of psychological perspectives in multidisciplinary safeguarding work. # Trainee Development - Situational Judgment Test Answers"
+      ],
+      "category": "Safeguarding",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:18:07.411Z"
+    }
+  ],
+  "errorQuestions": [],
+  "allResults": [
+    {
+      "id": 20,
+      "scenario": "You are running a therapy group for people with anxiety disorders. After the session, one member approaches you privately and discloses that another group member has been sending them inappropriate and increasingly threatening messages via social media, demanding they meet outside the group.",
+      "options": [
+        "Listen to their concerns, assess the nature and severity of the threats, advise on immediate safety steps (blocking contacts, etc.), and develop a plan that may include speaking with the other member, changing group composition, or involving other services as appropriate.",
+        "Immediately remove the threatening member from the group without further investigation.",
+        "Address the issue with both members present to mediate the situation.",
+        "Ask them to handle it themselves as it's happening outside the group setting.",
+        "# Ethical Dilemmas - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response comprehensively addresses safety concerns while gathering necessary information for proportionate intervention. The BPS Practice Guidelines emphasize thorough assessment before determining appropriate action levels for concerning behavior. This approach demonstrates clinical best practice by prioritizing the threatened member's safety while gathering essential information about the nature and severity of threats to inform proportionate intervention, balancing immediate safety advice with considered planning for longer-term management, maintaining therapeutic boundaries while fulfilling duty of care to all group members.",
+        "This approach provides practical safety advice but lacks comprehensive assessment and intervention. The HCPC Standards acknowledge the need for practical guidance while emphasizing fuller assessment of concerning situations. While this option offers immediately useful safety steps that the member can implement, it represents an incomplete response that fails to fully assess the threat level or address the inappropriate behavior within the group context, essentially placing responsibility for managing the situation primarily on the recipient of the threatening messages.",
+        "This response prioritizes apparent safety but lacks due process and thorough assessment. The BPS guidelines acknowledge the need for therapeutic boundaries while emphasizing fair processes. While this approach recognizes the seriousness of threatening behavior and prioritizes creating a safe therapeutic environment, taking significant action without investigation or hearing both perspectives represents a procedurally unfair approach that may be disproportionate to the actual situation and fails to model appropriate conflict resolution processes within the therapeutic setting.",
+        "This approach attempts resolution but potentially creates safety risks for the threatened member. The HCPC Standards emphasize client safety in therapeutic interventions. While mediation has value in some interpersonal conflicts, bringing together the threatening member with the person they've threatened creates potential for intimidation, discomfort, or escalation rather than resolution. This fails to recognize the power dynamic created by threatening behavior and could re-traumatize the recipient of threats, representing poor judgment in managing potential risk situations within therapeutic contexts.",
+        "This is the least appropriate action as it abdicates professional responsibility for group member safety. The BPS Code of Ethics clearly acknowledges that therapeutic responsibility extends to interactions between group members that impact therapeutic safety. This approach incorrectly assumes that behavior outside scheduled sessions is beyond professional concern, failing to recognize that threatening behavior between group members fundamentally impacts therapeutic safety regardless of where it occurs. It represents a serious misunderstanding of professional boundaries and responsibilities in group therapy contexts. # Ethical Dilemmas - Situational Judgment Test Answers"
+      ],
+      "category": "Risk Management",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:17:47.264Z"
+    },
+    {
+      "id": 30,
+      "scenario": "You have been court-ordered to provide an assessment for a child custody case. During your assessment, you find evidence supporting the father's position, but you also discover he made a significant donation to the mental health charity where you volunteer. You were unaware of this connection before conducting the assessment.",
+      "options": [
+        "Immediately disclose the potential conflict of interest to the court and all parties involved, and discuss with the court whether you should withdraw from the case or continue if all parties consent.",
+        "Complete the assessment as planned without mentioning the donation, as your professional judgment remains unaffected.",
+        "Disclose the connection only to the mother's legal team to allow them to decide how to proceed.",
+        "Complete the assessment but ensure your recommendations are particularly critical of the father to compensate for potential bias.",
+        "# Diversity and Inclusion - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response demonstrates transparent management of a previously unknown conflict of interest. The BPS Practice Guidelines and HCPC Standards emphasize transparency about potential conflicts of interest in forensic work. This approach demonstrates professional integrity by promptly disclosing the discovered connection to all relevant parties rather than making unilateral decisions, allowing the court to determine whether the assessment remains viable, and ensuring that all parties have equal information about the potential conflict, maintaining the credibility and impartiality expected in court-ordered assessments.",
+        "This approach removes the conflict but lacks transparency about reasons. The HCPC Standards acknowledge the need to address conflicts of interest in professional work. While this option appropriately recognizes that the donation creates a potential conflict that could affect assessment impartiality (or perceptions thereof), withdrawing without explanation fails to fulfill the transparency expected in forensic contexts and may create delays in the court process, though it does effectively remove the conflict of interest from affecting the case outcome.",
+        "This response continues professional work while assuming impartiality despite the conflict. The BPS guidelines acknowledge that some conflicts may be manageable but emphasize transparency in forensic contexts. While personal confidence in continued objectivity has some merit, this approach fails to recognize that conflicts of interest in forensic work concern both actual and perceived impartiality. Not disclosing the connection could undermine the credibility of the assessment if later discovered, potentially affecting the court's perception of the entire report.",
+        "This approach acknowledges the conflict but creates procedural unfairness through selective disclosure. The HCPC Standards require transparency and fairness to all parties in professional activities. While this option recognizes the need to disclose the potential conflict, selectively informing only one party creates fundamental unfairness in what should be an impartial process. It inappropriately places decision-making about a potential conflict in the hands of one interested party rather than the court, potentially creating procedural complications and appearance of bias.",
+        "This is the least appropriate action as it deliberately introduces bias to compensate for perceived bias. The BPS Code of Ethics requires objectivity and fairness in all professional assessments. This approach fundamentally misunderstands professional responsibility by intentionally skewing findings against the father, replacing one form of potential bias with actual, deliberate bias. It represents a serious ethical breach that violates the core principles of forensic assessment, potentially harming both the father and the child through distorted recommendations to the court. # Diversity and Inclusion - Situational Judgment Test Answers"
+      ],
+      "category": "Safeguarding",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:17:54.091Z"
+    },
+    {
+      "id": 40,
+      "scenario": "You are providing psychological therapy to a client from a collectivist cultural background. They express discomfort with the individualistic focus of setting personal goals separate from family needs, and mention that they need to consult family members before making decisions about their treatment.",
+      "options": [
+        "Adapt your therapeutic approach to incorporate collective decision-making and family-centered goals where appropriate, while balancing this with clinical requirements and the client's individual agency.",
+        "Invite family members to attend all future therapy sessions without exploring other options.",
+        "Explain that therapy requires individual decision-making and they need to develop more independence from their family.",
+        "Insist on continuing with the standard individualistic approach, explaining it's evidence-based regardless of cultural background.",
+        "# Interprofessional Working - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response adapts therapeutic approach to cultural values while maintaining clinical integrity. The BPS Practice Guidelines emphasize culturally responsive therapy that respects diverse worldviews and relational structures. This approach demonstrates cultural competence by recognizing that effective therapy must work within relevant cultural frameworks, adapting individualistic Western approaches to incorporate collective values, and balancing respect for family involvement with attention to the client's individual needs and agency within their cultural context, representing a sophisticated culturally adapted approach rather than rigid adherence to Western models.",
+        "This approach offers an alternative therapeutic format that may better match cultural values. The HCPC Standards support providing appropriate service modalities aligned with client needs. While this option recognizes the importance of family context in collectivist cultures, automatically shifting to family therapy without exploring adaptations to individual therapy may not address the specific needs that brought the client to individual treatment. However, it does acknowledge the central importance of family systems in collectivist cultures and offers a legitimate therapeutic alternative.",
+        "This response incorporates family but imposes a specific solution without collaboration. The BPS guidelines support family involvement while emphasizing collaborative decision-making. While this approach recognizes the importance of family in collectivist cultures, automatically including family without exploring the client's preferences regarding which sessions or topics would benefit from family presence represents an overly simplistic response to cultural difference. It correctly acknowledges family significance but implements this understanding without sufficient nuance or client input.",
+        "This approach imposes Western values of independence over the client's cultural framework. The HCPC Standards require respect for diverse cultural values in professional practice. This response demonstrates poor cultural competence by positioning family connectedness as dependence rather than a valid cultural orientation, imposing individualistic values incompatible with the client's worldview, and potentially creating unnecessary conflict between therapeutic engagement and cultural identity, undermining the therapeutic relationship and treatment effectiveness.",
+        "This is the least appropriate action as it rigidly applies Western models without cultural adaptation. The BPS Code of Ethics emphasizes respect for cultural diversity and evidence-based practice. This approach fundamentally misunderstands evidence-based practice, which includes cultural adaptation of proven interventions, not rigid application regardless of context. It fails to recognize that most therapy models were developed and validated primarily in Western individualistic contexts and require thoughtful adaptation for effectiveness with clients from collectivist cultures where self and identity are inherently relational. # Interprofessional Working - Situational Judgment Test Answers"
+      ],
+      "category": "Professional Boundaries",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:18:00.563Z"
+    },
+    {
+      "id": 50,
+      "scenario": "During a professionals' meeting about a child safeguarding case, you share concerns based on your assessment that contradict the social worker's view. The social worker becomes visibly angry, stating that psychologists \"always complicate things with fancy formulations\" when clear action is needed.",
+      "options": [
+        "Acknowledge the urgency of child protection decisions while calmly maintaining the relevance of your professional assessment, suggest discussing both perspectives to reach an integrated understanding, and remain focused on the child's best interests.",
+        "Escalate the disagreement to senior managers to resolve the conflict.",
+        "Engage in direct confrontation with the social worker about their dismissive attitude toward psychological perspectives.",
+        "Apologize for causing confusion and withdraw your assessment to support the social worker's plan.",
+        "# Trainee Development - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response balances acknowledging legitimate urgency concerns with maintaining the value of thorough assessment. The BPS Practice Guidelines emphasize collaborative working in safeguarding while contributing psychological understanding to decision-making. This approach demonstrates professional maturity by validating the social worker's concern about timely action while maintaining the importance of psychological perspectives in understanding risk, suggesting integration rather than competition between viewpoints, and maintaining focus on the child's needs rather than professional disagreement or defending professional territory.",
+        "This approach documents concerns but fails to ensure they influence current decision-making. The HCPC Standards require documentation of professional judgment while emphasizing active contribution to safeguarding. While this response appropriately ensures concerns are recorded, remaining silent during the meeting when critical decisions are being made potentially allows important psychological perspectives to be excluded from the safeguarding plan. However, it does avoid escalating an already tense situation and ensures concerns are at least documented for future reference.",
+        "This response seeks resolution through appropriate channels but may delay urgent decision-making. The BPS guidelines acknowledge management structures while emphasizing timely safeguarding processes. While this approach appropriately recognizes the seriousness of professional disagreement in safeguarding contexts, immediate escalation without attempting resolution in the meeting potentially delays critical child protection decisions. It may be appropriate if direct discussion proves impossible but represents a significant step that should follow attempted professional dialogue.",
+        "This approach addresses unprofessional behavior but risks derailing the safeguarding focus. The HCPC Standards support professional respect while emphasizing child-centered practice. While this response legitimately challenges dismissive attitudes toward psychological contributions to safeguarding, focusing on the interprofessional conflict rather than the child's needs represents misplaced priorities in a safeguarding context. It may address important professional dynamics but at the risk of further inflaming tensions when child protection decisions are urgently needed.",
+        "This is the least appropriate action as it abandons professional responsibility to contribute psychological perspectives to safeguarding. The BPS Code of Ethics emphasizes maintaining appropriate professional contributions to child protection despite challenges. This approach fails to fulfill the fundamental duty to provide relevant psychological information in safeguarding cases, potentially allowing important risk factors to remain unaddressed, prioritizing conflict avoidance over child protection, and reinforcing unhelpful dismissal of psychological perspectives in multidisciplinary safeguarding work. # Trainee Development - Situational Judgment Test Answers"
+      ],
+      "category": "Safeguarding",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": false,
+        "confidence": 0,
+        "rankingAssessment": "Not assessed",
+        "overallAssessment": "Not provided",
+        "rawResponse": ""
+      },
+      "validatedAt": "2025-08-28T22:18:07.411Z"
+    },
+    {
+      "id": 60,
+      "scenario": "You receive feedback from clients and team members that your clinical style is sometimes overly academic and uses psychological jargon that is difficult to understand.",
+      "options": [
+        "Thank them for the feedback, actively work on adapting your communication style for different audiences, practice using clearer explanations, and seek ongoing feedback about improvements.",
+        "Provide written glossaries of psychological terms to clients and colleagues.",
+        "Start avoiding psychological concepts entirely in discussions with clients and team members.",
+        "Defend your communication style as appropriately professional and technical.",
+        "# Service Delivery - Situational Judgment Test Answers"
+      ],
+      "correctRanking": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalFeedback": [
+        "This response demonstrates openness to feedback and commitment to developing effective communication. The BPS Practice Guidelines emphasize clear communication adapted to diverse audiences. This approach shows professional maturity by accepting feedback constructively rather than defensively, recognizing that effective communication requires adaptation to different audiences, actively working to develop this core professional skill, and establishing ongoing feedback mechanisms to monitor improvement. It models the reflective practice and communication flexibility essential for effective psychological work.",
+        "This approach accepts targeted feedback but limits the scope of adaptation. The HCPC Standards support seeking specific feedback while emphasizing broader communication skills. While requesting concrete examples demonstrates some receptiveness to improvement and provides practical guidance for change, focusing only on eliminating specific terms rather than developing a more flexible communication style represents a limited response to the feedback. However, it does acknowledge the need for some adaptation rather than completely dismissing the concern.",
+        "This response acknowledges the issue but implements an impractical workaround. The BPS guidelines emphasize accessible communication rather than expecting others to learn professional terminology. While providing explanations of terms demonstrates some recognition of the communication barrier, expecting clients and colleagues to reference glossaries rather than adapting communication style represents an impractical solution that places burden on others rather than developing more accessible communication. It attempts to address the issue but through an inefficient approach.",
+        "This approach overcompensates by removing important conceptual content. The HCPC Standards support accessible language while maintaining appropriate professional communication. While simplifying language has merit, completely avoiding psychological concepts represents an overcorrection that potentially reduces the value of psychological perspectives in client work and team discussions. It demonstrates an all-or-nothing response to feedback rather than developing the balanced communication that integrates concepts with accessible language.",
+        "This is the least appropriate action as it dismisses legitimate feedback about core professional skills. The BPS Code of Ethics emphasizes client-centered communication and professional development through feedback. This approach fails to recognize that effective communication requires adaptation to audience understanding rather than adherence to academic conventions, prioritizes personal preference over professional effectiveness, and demonstrates resistance to developing essential communication flexibility. It represents poor professional development practice that values academic style over functional communication. # Service Delivery - Situational Judgment Test Answers"
+      ],
+      "category": "Interprofessional Working",
+      "hasDetailedFeedback": true,
+      "source": "manual_parse",
+      "validation": {
+        "valid": true,
+        "confidence": 95,
+        "rankingAssessment": "Correct",
+        "overallAssessment": "Scenario is realistic and clinically accurate. Ranking aligns well with BPS/HCPC standards, prioritising self-reflection, client-centred communication, and professional collaboration.",
+        "rawResponse": "VALID: YES\nCONFIDENCE: 95%\nRANKING: Correct\nASSESSMENT: Scenario is realistic and clinically accurate. Ranking aligns well with BPS/HCPC standards, prioritising self-reflection, client-centred communication, and professional collaboration."
+      },
+      "validatedAt": "2025-08-28T22:18:14.065Z"
+    }
+  ]
+}

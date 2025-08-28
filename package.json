@@ -2,7 +2,6 @@
   "name": "dclinpsy-website",
   "version": "2.0.0",
   "private": true,
-  "type": "module",
   "homepage": "https://jmckernan95.github.io/dclinpsy-website",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

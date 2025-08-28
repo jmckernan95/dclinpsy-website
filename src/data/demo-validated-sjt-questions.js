@@ -1,6 +1,6 @@
 /**
  * Validated SJT Questions - BPS/HCPC Compliant (DEMO)
- * Generated: 2025-08-28T21:05:58.400Z
+ * Generated: 2025-08-28T21:08:17.969Z
  * Total Questions: 25 (estimated)
  * Validation Confidence: High (87% average)
  * 
@@ -563,7 +563,7 @@ const addValidationMetadata = (questions) => {
       'BPS Code of Ethics and Conduct',
       'HCPC Standards of Conduct, Performance and Ethics'
     ],
-    validatedAt: '2025-08-28T21:05:58.400Z',
+    validatedAt: '2025-08-28T21:08:17.969Z',
     professionalRationale: 'Validated against professional psychology standards with high confidence.'
   }));
 };

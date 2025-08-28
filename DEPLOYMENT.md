@@ -1,9 +1,9 @@
 # DClinPsy App Deployment Guide
 
 ## Live Application
-🌐 **Live URL**: [https://jmckernan95.github.io/dclinpsy-app](https://jmckernan95.github.io/dclinpsy-app)
+🌐 **Live URL**: [https://jmckernan95.github.io/dclinpsy-website](https://jmckernan95.github.io/dclinpsy-website)
 
-📁 **Repository**: [https://github.com/jmckernan95/dclinpsy-app](https://github.com/jmckernan95/dclinpsy-app)
+📁 **Repository**: [https://github.com/jmckernan95/dclinpsy-website](https://github.com/jmckernan95/dclinpsy-website)
 
 ---
 
@@ -28,7 +28,7 @@ npm test           # Run tests
 ### Initial Setup (Already Complete)
 1. ✅ Configured `package.json` with homepage URL
 2. ✅ Installed `gh-pages` package
-3. ✅ Created GitHub repository: `dclinpsy-app`
+3. ✅ Created GitHub repository: `dclinpsy-website`
 4. ✅ Deployed to GitHub Pages
 
 ### Making Updates and Redeploying
@@ -56,7 +56,7 @@ The app is automatically configured for GitHub Pages:
 - **HTTPS**: Enabled by default
 
 ### Manual GitHub Pages Settings (if needed)
-1. Go to [Repository Settings](https://github.com/jmckernan95/dclinpsy-app/settings)
+1. Go to [Repository Settings](https://github.com/jmckernan95/dclinpsy-website/settings)
 2. Scroll to "Pages" in the left sidebar
 3. **Source**: Deploy from a branch
 4. **Branch**: `gh-pages` → `/ (root)`
@@ -90,13 +90,16 @@ The app is automatically configured for GitHub Pages:
 After each deployment, verify:
 
 ### Core Functionality
-- [ ] App loads at https://jmckernan95.github.io/dclinpsy-app
-- [ ] Navigation works (Home, Login, Register, Practice)
+- [ ] App loads at https://jmckernan95.github.io/dclinpsy-website
+- [ ] Navigation works (Home, Blog, Events, News, Statistics, Practice, Volunteer)
 - [ ] User registration with age verification
 - [ ] User login/logout functionality
-- [ ] Practice tests load and function correctly
-- [ ] Scoring system works
+- [ ] Practice tests load and function correctly (32 questions total)
+- [ ] Scoring system works (proximity-based ranking)
 - [ ] Progress tracking saves data
+- [ ] Statistics learning section functional
+- [ ] News feed updates automatically
+- [ ] Blog and events sections accessible
 - [ ] Research questionnaire accessible
 
 ### Responsive Design
@@ -145,7 +148,7 @@ npm run deploy
 ```
 
 ### Checking Deployment Status
-- Visit [GitHub Repository](https://github.com/jmckernan95/dclinpsy-app)
+- Visit [GitHub Repository](https://github.com/jmckernan95/dclinpsy-website)
 - Check "Actions" tab for deployment history
 - "Pages build and deployment" workflow shows status
 
@@ -179,8 +182,8 @@ npm run deploy
 ### Development Setup
 ```bash
 # Clone repository
-git clone https://github.com/jmckernan95/dclinpsy-app.git
-cd dclinpsy-app
+git clone https://github.com/jmckernan95/dclinpsy-website.git
+cd dclinpsy-website
 
 # Install dependencies
 npm install

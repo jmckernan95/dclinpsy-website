@@ -1,0 +1,38 @@
+{
+  "deployedAt": "2025-08-28T22:40:33.076Z",
+  "questionsAdded": 4,
+  "totalCandidates": 11,
+  "highConfidenceCandidates": 9,
+  "uniqueAfterDedup": 8,
+  "deployedQuestions": [
+    {
+      "id": 60,
+      "category": "Interprofessional Working",
+      "confidence": 95,
+      "source": "manual_parse"
+    },
+    {
+      "id": 30,
+      "category": "Safeguarding",
+      "confidence": 90,
+      "source": "manual_parse"
+    },
+    {
+      "id": 40,
+      "category": "Professional Boundaries",
+      "confidence": 90,
+      "source": "manual_parse"
+    },
+    {
+      "id": 50,
+      "category": "Safeguarding",
+      "confidence": 90,
+      "source": "manual_parse"
+    }
+  ],
+  "categoryBreakdown": {
+    "Interprofessional Working": 1,
+    "Safeguarding": 2,
+    "Professional Boundaries": 1
+  }
+}
