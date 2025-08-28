@@ -39,6 +39,7 @@ import SJTTest from './pages/SJTTest';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import Feedback from './pages/Feedback';
+import QuestionValidation from './pages/QuestionValidation';
 
 // Component Imports
 import ProgressDashboard from './components/ProgressDashboard';
@@ -204,6 +205,14 @@ const App = () => {
             element={
               <Layout showBreadcrumbs={true}>
                 <Volunteer />
+              </Layout>
+            } 
+          />
+          <Route 
+            path="/validation" 
+            element={
+              <Layout showBreadcrumbs={true}>
+                <QuestionValidation />
               </Layout>
             } 
           />
